@@ -84,6 +84,9 @@ $(document).ready(function() {
       firstname:{
         required: (jQuery("input[name='firstname']").data("is_required")) ? true : false,
       },
+      Qual:{
+        required: (jQuery("input[name='Qual']").data("is_required")) ? true : false,
+      },
       Address: {
         required: (jQuery("input[name='Address']").data("is_required")) ? true : false,
       },
@@ -121,6 +124,7 @@ $(document).ready(function() {
     },
     messages: {
       firstname: "Please Enter Teacher Name",
+      Qual: "Please Enter DNI Number",
       Address: "Please Enter current Address",
       lastname: "Please Enter Last Name",
       Username: {
@@ -178,6 +182,9 @@ $(document).ready(function() {
       firstname: {
         required: (jQuery("input[name='firstname']").data("is_required")) ? true : false,
       },
+      Qual:{
+        required: (jQuery("input[name='Qual']").data("is_required")) ? true : false,
+      },
       Address: {
         required: (jQuery("input[name='Address']").data("is_required")) ? true : false,
       },
@@ -215,6 +222,7 @@ $(document).ready(function() {
     },
     messages: {
       firstname: "Please Enter Teacher Name",
+      Qual: "Please Enter DNI Number",
       Address: "Please Enter current Address",
       lastname: "Please Enter Last Name",
       Username: {

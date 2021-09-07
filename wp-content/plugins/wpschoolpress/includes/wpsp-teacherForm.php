@@ -223,11 +223,11 @@
                             <div class="wpsp-form-group">
                                 <label class="wpsp-label" for="educ"><?php
                                     $pl = "";
-                                    $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Qualification","WPSchoolPress"));
+                                    $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("DNI","WPSchoolPress"));
                                         if(isset($item['section']) && $item['section'] == "personal" && isset($item['Qual'])){
                                           echo $pl = esc_html($item['Qual'],"WPSchoolPress");
                                     }else{
-                                        echo $pl = esc_html("Qualification","WPSchoolPress");
+                                        echo $pl = esc_html("DNI","WPSchoolPress");
 
                                     }
 
@@ -235,7 +235,7 @@
                                     if(isset($is_required_item['section']) && $is_required_item['section'] == "personal" && isset($is_required_item['Qual'])){
                                         $is_required =  $is_required_item['Qual'];
                                     }else{
-                                        $is_required = false;
+                                        $is_required = true;
                                     }
                                     ?>
                                   <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
@@ -524,6 +524,7 @@
                         <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
                     <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="Position" name="Position" placeholder="<?php echo $pl; ?>">
                 </div>
+
                 <div class="wpsp-row">
                     <div class="wpsp-col-md-6 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
@@ -545,7 +546,9 @@
                                 <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
                             <input type="text" class="wpsp-form-control" id="EmpCode" name="EmpCode" placeholder="<?php echo $pl; ?>">
                         </div>
+                        
                     </div>
+
                     <div class="wpsp-col-md-6 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
                             <label class="wpsp-label" for="whours"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Working Hours","WPSchoolPress"));

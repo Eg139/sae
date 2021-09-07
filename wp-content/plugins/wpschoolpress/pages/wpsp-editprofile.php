@@ -351,9 +351,9 @@ if( !empty( $stinfo ) ) {
                         </div>
                         <div class="wpsp-col-lg-3 wpsp-col-md-4 wpsp-col-sm-4 wpsp-col-xs-12">
                             <div class="wpsp-form-group">
-                                <label class="wpsp-label" for="Qualification">Qualification</label>
+                                <label class="wpsp-label" for="Qualification">DNIiiii<span class="wpsp-required"> *</label></label>
                             
-                                <input type="text" class="wpsp-form-control" id="Qual" name="Qual" value="<?php echo $tinfo->qualification; ?>" placeholder="Qualification">
+                                <input type="text" class="wpsp-form-control" id="Qual" name="Qual" value="<?php echo $tinfo->qualification; ?>" placeholder="DNI">
                             
                             </div>  
                         </div>
