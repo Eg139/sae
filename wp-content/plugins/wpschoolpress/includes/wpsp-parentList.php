@@ -35,7 +35,7 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 				<label class="wpsp-labelMain"><?php _e( 'Select Class Name', 'WPSchoolPress' );?></label>
 				<select name="ClassID" id="ClassID" class="wpsp-form-control">
 					
-					<option value="all" <?php if($sel_classid=='all') echo "selected"; ?>>All</option>
+					<option value="all" <?php if($sel_classid=='all') echo "selected"; ?>>Todas</option>
 				
 					<?php										
 					foreach( $sel_class as $classes ) { ?>

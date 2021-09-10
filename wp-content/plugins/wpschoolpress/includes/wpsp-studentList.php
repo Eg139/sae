@@ -92,7 +92,7 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 			</div>
 <?php if ( in_array( 'administrator', $role ) ) {?>
 			<div class="wpsp-btn-list"  <?php if($proversion['status'] != "1") {?> wpsp-tooltip="<?php echo $protitle;?>" <?php } ?>>
-				<button id="ImportStudent" class="wpsp-btn wpsp-dark-btn wpsp-popclick impt" <?php echo $prodisable;?> title="<?php //echo $protitle;?>" data-pop="ImportModal"><i class="fa fa-upload"></i> Import </button></div>
+				<button id="ImportStudent" class="wpsp-btn wpsp-dark-btn wpsp-popclick impt" <?php echo $prodisable;?> title="<?php //echo $protitle;?>" data-pop="ImportModal"><i class="fa fa-upload"></i> Importar </button></div>
 					<?php }?>
 			<div class="wpsp-btn-list"  <?php if($proversion['status'] != "1") {?> wpsp-tooltip="<?php echo $protitle;?>" <?php } ?>>
 				<div class="wpsp-dropdownmain wpsp-button-group">
@@ -127,8 +127,8 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 					<?php if ( in_array( 'administrator', $role ) ) { ?>
 							<div class="wpsp-bulkaction">
 								<select name="bulkaction" class="wpsp-form-control" id="bulkaction">
-									<option value="">Select Action</option>
-									<option value="bulkUsersDelete">Delete</option>
+									<option value="">Seleccionar Acción</option>
+									<option value="bulkUsersDelete">Eliminar</option>
 								</select>
 							</div>
 						<?php } ?>

@@ -500,7 +500,7 @@ $plugins_url=plugins_url();
 
 
 
-								<i class="fa fa-upload"></i> Import 
+								<i class="fa fa-upload"></i> Importar 
 
 
 
@@ -668,11 +668,11 @@ $plugins_url=plugins_url();
 
 
 
-					<option value="">Select Action</option>
+					<option value="">Seleccionar Acción</option>
 
 
 
-					<option value="bulkUsersDelete" id="d_teacher">Delete</option>
+					<option value="bulkUsersDelete" id="d_teacher">Eliminar</option>
 
 
 
