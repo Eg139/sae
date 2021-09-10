@@ -890,13 +890,13 @@ if( !empty( $stinfo ) ) {
                     </div>
                     <div class="wpsp-col-md-4 wpsp-col-sm-4 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="dateofbirth">  <?php $item =  apply_filters( 'wpsp_student_school_title_item',esc_html("Roll Number","WPSchoolPress"));
+                            <label class="wpsp-label" for="dateofbirth">  <?php $item =  apply_filters( 'wpsp_student_school_title_item',esc_html("DNI","WPSchoolPress"));
                                   $pl = "";
                                   if(isset($item['section']) && $item['section'] == "school" && isset($item['s_rollno'])){
                                         echo $pl = esc_html($item['s_rollno'],"WPSchoolPress");
 
                                   }else{
-                                      echo $pl = esc_html("Roll Number","WPSchoolPress");
+                                      echo $pl = esc_html("DNI","WPSchoolPress");
                                   }
                                   /*Check Required Field*/
                                   if(isset($is_required_school['section']) && $is_required_school['section'] == "school" && isset($is_required_school['s_rollno'])){

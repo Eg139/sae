@@ -145,6 +145,13 @@ function wpsp_AddStudent(){
 	$parent_id = isset($_POST['Parent']) ? sanitize_text_field($_POST['Parent']) : '0';
 	$email = sanitize_email($_POST['Email']);
 	$pfirstname = sanitize_text_field($_POST['p_fname']);
+//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+	$p2firstname = sanitize_text_field($_POST['p2_fname']);
+	$p2middlename = sanitize_text_field($_POST['p2_mname']);
+	$p2lastname = sanitize_text_field($_POST['p2_lname']);
+	$p2email = sanitize_text_field($_POST['p2_email']);
+	$p2phone = sanitize_text_field($_POST['p2_phone']);
+//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 	$pmiddlename = sanitize_text_field($_POST['p_mname']);
 	$plastname = sanitize_text_field($_POST['p_lname']);
 	$pgender = sanitize_text_field($_POST['p_gender']);
@@ -170,6 +177,13 @@ function wpsp_AddStudent(){
 			//Use data of existing user
 			$parent_id = $response['parentID'];
 			$pfirstname = $response['data']->p_fname;
+	//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+			$p2firstname = $response['data']->p2_fname;
+			$p2middlename = $response['data']->p2_mname;
+			$p2lastname = $response['data']->p2_lname;
+			$p2email = $response['data']->p2_email;
+			$p2phone = $response['data']->p2_phone;
+	//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 			$pmiddlename = $response['data']->p_mname;
 			$plastname = $response['data']->p_lname;
 			$pgender = $response['data']->p_gender;
@@ -265,6 +279,13 @@ function wpsp_AddStudent(){
 			's_doj' => isset($_POST['s_doj']) && !empty($_POST['s_doj']) ? wpsp_StoreDate(sanitize_text_field($_POST['s_doj'])) : '',
 			's_phone' => isset($_POST['s_phone']) ? sanitize_text_field($_POST['s_phone']) : '',
 			'p_fname' => $pfirstname,
+			//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+			'p2_fname' => $p2firstname,
+			'p2_mname' => $p2middlename,
+			'p2_lname' => $p2lastname,
+			'p2_email' => $p2email,
+			'p2_phone' => $p2phone,
+			//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 			'p_mname' => $pmiddlename,
 			'p_lname' => $plastname,
 			'p_gender' => $pgender,
@@ -419,9 +440,9 @@ function getparentInfo($parentEmail)
 		$roles = $parentInfo->roles;
 
 		$parentID = $parentInfo->ID;
-
-		$chck_parent = $wpdb->get_row("SELECT p_fname,p_mname,p_lname,p_gender,p_edu,s_phone,p_profession,p_bloodgrp from $student_table where parent_wp_usr_id=$parentID");
-
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		$chck_parent = $wpdb->get_row("SELECT p_fname,p2_fname,p2_mname,p2_lname,p2_email,p2_phone,p_mname,p_lname,p_gender,p_edu,s_phone,p_profession,p_bloodgrp from $student_table where parent_wp_usr_id=$parentID");
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 		$response['parentID'] = $parentID;
 
 		if (!empty($chck_parent))
@@ -594,7 +615,14 @@ function wpsp_UpdateStudent(){
 
 		{
       $parent_id = intval($_POST['parentid']);
-		  $pfirstname = sanitize_text_field($_POST['p_fname']);
+		$pfirstname = sanitize_text_field($_POST['p_fname']);
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		$p2firstname = sanitize_text_field($_POST['p2_fname']);
+		$p2middlename = sanitize_text_field($_POST['p2_mname']);
+		$p2lastname = sanitize_text_field($_POST['p2_lname']);
+		$p2email = sanitize_text_field($_POST['p2_email']);
+		$p2phone = sanitize_text_field($_POST['p2_phone']);
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
   		$pmiddlename = sanitize_text_field($_POST['p_mname']);
   		$plastname = sanitize_text_field($_POST['p_lname']);
   		$pgender = sanitize_text_field($_POST['p_gender']);
@@ -606,8 +634,15 @@ function wpsp_UpdateStudent(){
 
 		else {
       $parent_id = intval($_POST['parentid']);
-		  $pfirstname = sanitize_text_field($_POST['p_fname']);
-		  $pmiddlename = sanitize_text_field($_POST['p_mname']);
+		$pfirstname = sanitize_text_field($_POST['p_fname']);
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		$p2firstname = sanitize_text_field($_POST['p2_fname']);
+		$p2middlename = sanitize_text_field($_POST['p2_mname']);
+		$p2lastname = sanitize_text_field($_POST['p2_lname']);
+		$p2email = sanitize_text_field($_POST['p2_email']);
+		$p2phone = sanitize_text_field($_POST['p2_phone']);
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		$pmiddlename = sanitize_text_field($_POST['p_mname']);
   		$plastname = sanitize_text_field($_POST['p_lname']);
   		$pgender = sanitize_text_field($_POST['p_gender']);
   		$pedu = sanitize_text_field($_POST['p_edu']);
@@ -619,6 +654,13 @@ function wpsp_UpdateStudent(){
 	else {
 		$parent_id = intval($_POST['parentid']);
 		$pfirstname = sanitize_text_field($_POST['p_fname']);
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		$p2firstname = sanitize_text_field($_POST['p2_fname']);
+		$p2middlename = sanitize_text_field($_POST['p2_mname']);
+		$p2lastname = sanitize_text_field($_POST['p2_lname']);
+		$p2email = sanitize_text_field($_POST['p2_email']);
+		$p2phone = sanitize_text_field($_POST['p2_phone']);
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 		$pmiddlename = sanitize_text_field($_POST['p_mname']);
 		$plastname = sanitize_text_field($_POST['p_lname']);
 		$pgender = sanitize_text_field($_POST['p_gender']);
@@ -719,6 +761,13 @@ function wpsp_UpdateStudent(){
 						//Use data of existing user
 						$parent_id = $response['parentID'];
 						$pfirstname = $response['data']->p_fname;
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+						$p2firstname = $response['data']->p2_fname;
+						$p2middlename = $response['data']->p2_mname;	
+						$p2lastname = $response['data']->p2_lname;	
+						$p2email = $response['data']->p2_email;	
+						$p2phone = $response['data']->p2_phone;		
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 						$pmiddlename = $response['data']->p_mname;
 						$plastname = $response['data']->p_lname;
 						$pgender = $response['data']->p_gender;
@@ -780,6 +829,13 @@ function wpsp_UpdateStudent(){
 				$parenttable = array(
 				'parent_wp_usr_id' => $parent_id,
 				'p_fname' => $pfirstname,
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+				'p2_fname' => $p2firstname,
+				'p2_mname' => $p2middlename,
+				'p2_lname' => $p2lastname,
+				'p2_email' => $p2email,
+				'p2_phone' => $p2phone,
+//ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 				'p_mname' => $pmiddlename,
 				'p_lname' => $plastname,
 				'p_gender' => $pgender,
@@ -823,6 +879,13 @@ function wpsp_UpdateStudent(){
 		's_doj' => isset($_POST['s_doj']) && !empty($_POST['s_doj']) ? wpsp_StoreDate(sanitize_text_field($_POST['s_doj'])) : '',
 		's_phone' => $phone,
 		'p_fname' => $pfirstname,
+//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		'p2_fname' => $p2firstname,
+		'p2_mname' => $p2middlename,
+		'p2_lname' => $p2lastname,
+		'p2_email' => $p2email,
+		'p2_phone' => $p2phone,
+//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 		'p_mname' => $pmiddlename,
 		'p_lname' => $plastname,
 		'p_gender' => $pgender,
@@ -839,6 +902,13 @@ function wpsp_UpdateStudent(){
 
 		$parenttable = array(
 		'parent_wp_usr_id' => $parent_id,
+//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+		'p2_fname' => $p2firstname,
+		'p2_mname' => $p2middlename,
+		'p2_lname' => $p2lastname,
+		'p2_email' => $p2email,
+		'p2_phone' => $p2phone,
+//oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 		'p_fname' => $pfirstname,
 		'p_mname' => $pmiddlename,
 		'p_lname' => $plastname,
@@ -1004,8 +1074,8 @@ function wpsp_StudentPublicProfile()
 									<td><strong>Email: </strong>$stinfo->user_email</td>
 								</tr>
 								<tr>
-									<td><strong> ". apply_filters( 'wpsp_parent_popupvalue', esc_html__( 'Parent Name:', 'WPSchoolPress' ))."</strong>
-										$stinfo->p_fname  $stinfo->p_mname  $stinfo->p_lname
+									<td><strong> ". apply_filters( 'wpsp_parent_popupvalue', esc_html__( 'Nombre de los familiares:', 'WPSchoolPress' ))."</strong>
+										$stinfo->p_fname  $stinfo->p_mname  $stinfo->p_lname, $stinfo->p2_fname $stinfo->p2_mname  $stinfo->p2_lname
 									</td>
 									<td><strong>". apply_filters( 'wpsp_parent_popupvalue_gender', esc_html__( 'Parent Gender:', 'WPSchoolPress' ))." </strong>$stinfo->p_gender</td>
 								</tr>
@@ -1017,7 +1087,7 @@ function wpsp_StudentPublicProfile()
 									<td colspan='2'><strong>Phone Number: </strong>$stinfo->s_phone</td>
 								</tr>
 								<tr>
-									<td><strong>Roll No: </strong>$stinfo->s_rollno</td>
+									<td><strong>DNI: </strong>$stinfo->s_rollno</td>
 									<td><strong>Class: </strong>".implode(", ",$classname_array)."</td>
 								</tr>
 							</tbody>

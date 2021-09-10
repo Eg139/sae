@@ -80,7 +80,7 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 					</div>
 						<div class="wpsp-btn-list"  <?php if($proversion['status'] != "1") {?> wpsp-tooltip="<?php echo $protitle;?>" <?php } ?>>
 						<div class="psp-dropdownmain wpsp-button-group">
-							<button type="button" class="wpsp-btn print" id="ExportParents" <?php echo $prodisable;?> title="<?php echo $protitle;?>"><i class="fa fa-download"></i> Export </button>
+							<button type="button" class="wpsp-btn print" id="ExportParents" <?php echo $prodisable;?> title="<?php echo $protitle;?>"><i class="fa fa-download"></i> Exportar </button>
 							<button type="button" class="wpsp-btn wpsp-btn-blue wpsp-dropdown-toggle" <?php echo $prodisable;?> title="<?php echo $protitle;?>">
 								<!-- <span class="caret"></span>
 								<span class="sr-only">Toggle Dropdown</span> -->
@@ -109,7 +109,7 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 						<div class="wpsp-btn-list"  <?php if($proversion['status'] != "1") {?> wpsp-tooltip="<?php echo $protitle;?>" <?php } ?>>
 						<div class="wpsp-button-group wpsp-dropdownmain wpsp-left"> 
 							<button type="button" class="wpsp-btn wpsp-btn-success  print" id="PrintParent" <?php echo $prodisable;?> title="<?php //echo $protitle;?>">
-							<i class="fa fa-print"></i> Print </button>
+							<i class="fa fa-print"></i> Imprimir </button>
 							<button type="button" class="wpsp-btn wpsp-btn-success wpsp-dropdown-toggle" <?php echo $prodisable;?> title="<?php //echo $protitle;?>"><!-- 
 								<span class="caret"></span>
 								<span class="sr-only">Toggle Dropdown</span> -->
@@ -171,9 +171,9 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 			<thead>
 				<tr>								
 					<th><?php echo apply_filters( 'wpsp_parent_name_list_detail', esc_html__( 'Parent Name', 'WPSchoolPress' )); ?></th>
-					<th>Student Name</th>							
+					<th>Nombre del Estudiante</th>							
 					<th><?php echo apply_filters( 'wpsp_parent_email_list_detail', esc_html__( 'Parent Email ID', 'WPSchoolPress' )); ?></th>
-					<th  align="center" class="nosort">Action</th>
+					<th  align="center" class="nosort">Acción</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -203,9 +203,9 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 						<td><?php echo $pinfo->user_email;?></td>									
 						<td align="center">
 							<div class="wpsp-action-col">
-								<a href="javascript:void(0)" title="View" data-pop="ViewModal" data-id="<?php echo intval($pinfo->parent_wp_usr_id);?>" class="ViewParent wpsp-popclick">
+								<a href="javascript:void(0)" title="Ver" data-pop="ViewModal" data-id="<?php echo intval($pinfo->parent_wp_usr_id);?>" class="ViewParent wpsp-popclick">
 									<i class="icon dashicons dashicons-visibility wpsp-view-icon"></i></a>
-								<a href="<?php echo wpsp_admin_url();?>sch-student&id=<?php echo intval($pinfo->wp_usr_id).'&edit=true#parent-field-lists';?>" title="Edit"><i class="icon dashicons dashicons-edit wpsp-edit-icon"></i></a>
+								<a href="<?php echo wpsp_admin_url();?>sch-student&id=<?php echo intval($pinfo->wp_usr_id).'&edit=true#parent-field-lists';?>" title="Editar"><i class="icon dashicons dashicons-edit wpsp-edit-icon"></i></a>
 							</div>
 						</td>
 					</tr>
@@ -216,9 +216,9 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 			<tfoot>
 			  <tr>														
 					<th><?php echo apply_filters( 'wpsp_parent_name_list_detail', esc_html__( 'Parent Name', 'WPSchoolPress' )); ?></th>
-				<th>Student Name</th>							
+				<th>Nombre del Estudiante</th>							
 				<th><?php echo apply_filters( 'wpsp_parent_email_list_detail', esc_html__( 'Parent Email ID', 'WPSchoolPress' )); ?></th>
-				<th  align="center">Action</th>
+				<th  align="center">Acción</th>
 			  </tr>
 			</tfoot>
 		  </table>

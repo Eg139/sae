@@ -564,6 +564,8 @@ if($propayment != "installed"){
 if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <div class="wpsp-row "><?php } else { ?>
 	<div class="wpsp-row">
 	<?php  } ?>
+
+<!--Se comenta esta parte del código para que no se muestren los cuadros de colores en "Escritorio"
 	<div class="wpsp-col-sm-3 wpsp-col-xs-6">
 		<a class="wpsp-colorBox" <?php if($current_user_role == 'parent' || $current_user_role == 'student'){ }else {?> href="<?php echo wpsp_admin_url();?>sch-student" <?php } ?> >
 			<span class="wpsp-colorBox-title"><?php echo apply_filters('wpsp_sidebar_student_title_menu',esc_html__('Students','WPSchoolPress')); ?></span>
@@ -589,6 +591,7 @@ if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <d
 			<h4 class="wpsp-colorBox-head"><?php echo isset(  $users_count->clcount ) ?  intval($users_count->clcount) : 0; ?><sup>+</sup></h4>
 		</a>
 	</div>
+-->
 
 	</div>
 	<!-- Info boxes -->
@@ -604,9 +607,9 @@ if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <d
 						<h3 class="wpsp-card-title">Calendario de Actividades</h3>
 					</div>
 					<ul class="wpsp-cards-indicators wpsp-right">
-						<li><span class="wpsp-indic wpsp-blue-indic"></span> Events</li>
-						<li><span class="wpsp-indic wpsp-red-indic"></span> Exams</li>
-						<li><span class="wpsp-indic wpsp-green-indic"></span> Holidays</li>
+						<li><span class="wpsp-indic wpsp-blue-indic"></span> Eventos</li>
+						<li><span class="wpsp-indic wpsp-red-indic"></span> Examenes</li>
+						<li><span class="wpsp-indic wpsp-green-indic"></span> Vacaciones</li>
 					</ul>
 				</div>
 
@@ -618,7 +621,7 @@ if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <d
 		<div class="wpsp-col-lg-4  wpsp-col-xs-12">
 			<div class="wpsp-card">
 				<div class="wpsp-card-head">
-					<h3 class="wpsp-card-title">Exams</h3>
+					<h3 class="wpsp-card-title">Examenes</h3>
 				</div>
 				<div class="wpsp-card-body">
 

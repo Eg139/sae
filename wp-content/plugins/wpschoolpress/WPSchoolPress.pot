@@ -1,0 +1,1750 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSchoolPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-07 18:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: WPSchoolPress"
+
+#: lib/wpsp-ajaxworks-student.php:1014
+msgid " Parent Profession:"
+msgstr ""
+
+#: includes/wpsp-misc.php:442
+msgid "&#197;land Islands"
+msgstr ""
+
+#: includes/wpsp-teacherForm.php:369 includes/wpsp-studentForm.php:1133
+msgid "Account Information"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:751 includes/wpsp-studentList.php:152
+#: pages/wpsp-notify.php:298 pages/wpsp-notify.php:334
+#: pages/wpsp-settings.php:111 pages/wpsp-settings.php:133
+msgid "Action"
+msgstr ""
+
+#: pages/wpsp-teacher-attendance.php:26
+msgid "Add"
+msgstr ""
+
+#: includes/wpsp-classForm.php:29
+msgid "Add Class Information"
+msgstr ""
+
+#: includes/wpsp-examForm.php:16
+msgid "Add Exam Information"
+msgstr ""
+
+#: pages/wpsp-subject.php:18 pages/wpsp-class.php:15
+msgid "Add New Class"
+msgstr ""
+
+#: pages/wpsp-exams.php:17
+msgid "Add New Exam"
+msgstr ""
+
+#: pages/wpsp-student.php:13
+msgid "Add New Student"
+msgstr ""
+
+#: pages/wpsp-marks.php:142
+msgid "Add/Update"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:57
+msgid "Address"
+msgstr ""
+
+#: lib/wpsp-admin.php:16
+msgid "Advanced Plan"
+msgstr ""
+
+#: includes/wpsp-misc.php:439
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/wpsp-misc.php:445
+msgid "Albania"
+msgstr ""
+
+#: includes/wpsp-misc.php:448
+msgid "Algeria"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:225 includes/wpsp-studentList.php:54
+#: pages/wpsp-notify.php:21 pages/wpsp-notify.php:248 pages/wpsp-subject.php:50
+#: pages/wpsp-registration-request.php:28
+msgid "All"
+msgstr ""
+
+#: pages/wpsp-notify.php:13 pages/wpsp-notify.php:18
+msgid "All Parents"
+msgstr ""
+
+#: pages/wpsp-notify.php:12 pages/wpsp-notify.php:17
+msgid "All Students"
+msgstr ""
+
+#: pages/wpsp-notify.php:11 pages/wpsp-notify.php:19
+msgid "All Teachers"
+msgstr ""
+
+#: pages/wpsp-notify.php:10 pages/wpsp-notify.php:16
+msgid "All Users"
+msgstr ""
+
+#: includes/wpsp-misc.php:451
+msgid "Andorra"
+msgstr ""
+
+#: includes/wpsp-misc.php:454
+msgid "Angola"
+msgstr ""
+
+#: includes/wpsp-misc.php:457
+msgid "Anguilla"
+msgstr ""
+
+#: includes/wpsp-misc.php:460
+msgid "Antarctica"
+msgstr ""
+
+#: includes/wpsp-misc.php:463
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/wpsp-misc.php:466
+msgid "Argentina"
+msgstr ""
+
+#: includes/wpsp-misc.php:469
+msgid "Armenia"
+msgstr ""
+
+#: includes/wpsp-misc.php:472
+msgid "Aruba"
+msgstr ""
+
+#: pages/wpsp-marks.php:128
+msgid "Attach CSV"
+msgstr ""
+
+#: includes/filter_menu.php:16
+msgid "Attendance"
+msgstr ""
+
+#: pages/wpsp-attendance.php:15
+msgid "Attendance Report"
+msgstr ""
+
+#: includes/wpsp-misc.php:475
+msgid "Australia"
+msgstr ""
+
+#: includes/wpsp-misc.php:478
+msgid "Austria"
+msgstr ""
+
+#: includes/wpsp-misc.php:481
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/wpsp-examForm.php:216 pages/wpsp-settings.php:89
+msgid "Back"
+msgstr ""
+
+#: includes/wpsp-misc.php:484
+msgid "Bahamas"
+msgstr ""
+
+#: includes/wpsp-misc.php:487
+msgid "Bahrain"
+msgstr ""
+
+#: includes/wpsp-misc.php:490
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/wpsp-misc.php:493
+msgid "Barbados"
+msgstr ""
+
+#: includes/wpsp-misc.php:496
+msgid "Belarus"
+msgstr ""
+
+#: includes/wpsp-misc.php:502
+msgid "Belau"
+msgstr ""
+
+#: includes/wpsp-misc.php:499
+msgid "Belgium"
+msgstr ""
+
+#: includes/wpsp-misc.php:505
+msgid "Belize"
+msgstr ""
+
+#: includes/wpsp-misc.php:508
+msgid "Benin"
+msgstr ""
+
+#: includes/wpsp-misc.php:511
+msgid "Bermuda"
+msgstr ""
+
+#: includes/wpsp-misc.php:514
+msgid "Bhutan"
+msgstr ""
+
+#: includes/wpsp-parentList.php:15 includes/wpsp-teacherList.php:85
+#: includes/wpsp-studentList.php:17 pages/wpsp-student.php:157
+msgid "Blood Group"
+msgstr ""
+
+#: includes/wpsp-misc.php:517
+msgid "Bolivia"
+msgstr ""
+
+#: includes/wpsp-misc.php:520
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: includes/wpsp-misc.php:523
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/wpsp-misc.php:526
+msgid "Botswana"
+msgstr ""
+
+#: includes/wpsp-misc.php:529
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/wpsp-misc.php:532
+msgid "Brazil"
+msgstr ""
+
+#: includes/wpsp-misc.php:535
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/wpsp-misc.php:538
+msgid "British Virgin Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:541
+msgid "Brunei"
+msgstr ""
+
+#: includes/wpsp-misc.php:544
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/wpsp-misc.php:547
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/wpsp-misc.php:550
+msgid "Burundi"
+msgstr ""
+
+#: includes/wpsp-misc.php:553
+msgid "Cambodia"
+msgstr ""
+
+#: includes/wpsp-misc.php:556
+msgid "Cameroon"
+msgstr ""
+
+#: includes/wpsp-misc.php:559
+msgid "Canada"
+msgstr ""
+
+#: includes/wpsp-misc.php:562
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/wpsp-misc.php:565
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:568
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/wpsp-misc.php:571
+msgid "Chad"
+msgstr ""
+
+#: wpsp-layout.php:106
+msgid "Change Password"
+msgstr ""
+
+#: includes/wpsp-misc.php:574
+msgid "Chile"
+msgstr ""
+
+#: includes/wpsp-misc.php:577
+msgid "China"
+msgstr ""
+
+#: includes/wpsp-misc.php:580
+msgid "Christmas Island"
+msgstr ""
+
+#: pages/wpsp-settings.php:108 pages/wpsp-settings.php:130
+#: pages/wpsp-student.php:122
+msgid "Class"
+msgstr ""
+
+#: includes/filter_menu.php:27
+msgid "Class History"
+msgstr ""
+
+#: pages/wpsp-settings.php:254
+msgid "Class Hour Name Already exists."
+msgstr ""
+
+#: pages/wpsp-settings.php:275
+msgid "Class hours"
+msgstr ""
+
+#: includes/wpsp-studentList.php:149
+msgid "Class Status"
+msgstr ""
+
+#: pages/wpsp-settings.php:63
+msgid "Class:"
+msgstr ""
+
+#: includes/filter_menu.php:10 pages/wpsp-dashboard.php:588
+msgid "Classes"
+msgstr ""
+
+#: includes/wpsp-misc.php:583
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:586
+msgid "Colombia"
+msgstr ""
+
+#: includes/wpsp-misc.php:589
+msgid "Comoros"
+msgstr ""
+
+#: pages/wpsp-changepassword.php:40
+msgid "Confirm  New Password"
+msgstr ""
+
+#: includes/wpsp-misc.php:592
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: includes/wpsp-misc.php:595
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: includes/wpsp-misc.php:598
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:601
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:49 includes/wpsp-studentList.php:12
+msgid "Country"
+msgstr ""
+
+#: includes/wpsp-misc.php:604
+msgid "Croatia"
+msgstr ""
+
+#: includes/wpsp-misc.php:607
+msgid "Cuba"
+msgstr ""
+
+#: includes/wpsp-misc.php:610
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: includes/wpsp-studentList.php:14
+msgid "Current Address"
+msgstr ""
+
+#: pages/wpsp-changepassword.php:22
+msgid "Current Password"
+msgstr ""
+
+#: includes/wpsp-misc.php:613
+msgid "Cyprus"
+msgstr ""
+
+#: includes/wpsp-misc.php:616
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/filter_menu.php:4
+msgid "Dashboard"
+msgstr ""
+
+#: pages/wpsp-notify.php:297 pages/wpsp-notify.php:333
+#: pages/wpsp-teacher-attendance.php:21
+msgid "Date"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:61 includes/wpsp-studentList.php:18
+msgid "Date Of Birth"
+msgstr ""
+
+#: pages/wpsp-student.php:130
+msgid "Date of Birth"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:65 includes/wpsp-studentList.php:19
+msgid "Date Of Join"
+msgstr ""
+
+#: pages/wpsp-student.php:134
+msgid "Date of Join"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:69
+msgid "Date Of Releaving"
+msgstr ""
+
+#: includes/wpsp-misc.php:619
+msgid "Denmark"
+msgstr ""
+
+#: pages/wpsp-notify.php:294 pages/wpsp-notify.php:330
+msgid "Description"
+msgstr ""
+
+#: includes/wpsp-misc.php:622
+msgid "Djibouti"
+msgstr ""
+
+#: includes/wpsp-misc.php:625
+msgid "Dominica"
+msgstr ""
+
+#: includes/wpsp-misc.php:628
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/wpsp-misc.php:631
+msgid "Ecuador"
+msgstr ""
+
+#: pages/wpsp-subject.php:22
+msgid "Edit Class"
+msgstr ""
+
+#: wpsp-layout.php:104
+msgid "Edit Profile"
+msgstr ""
+
+#: includes/wpsp-parentList.php:12
+msgid "Education"
+msgstr ""
+
+#: includes/wpsp-misc.php:634
+msgid "Egypt"
+msgstr ""
+
+#: includes/wpsp-misc.php:637
+msgid "El Salvador"
+msgstr ""
+
+#: lib/wpsp-admin.php:46 pages/wpsp-notify.php:22 pages/wpsp-notify.php:243
+#: pages/wpsp-student.php:149
+msgid "Email"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:25
+msgid "Emp. Code"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:731 includes/wpsp-teacherList.php:903
+msgid "Employee Code"
+msgstr ""
+
+#: pages/wpsp-settings.php:612
+msgid "Enable SMS Notification"
+msgstr ""
+
+#: includes/filter_menu.php:29
+msgid "Enrolled Classes"
+msgstr ""
+
+#: pages/wpsp-marks.php:171
+msgid "Enter Marks"
+msgstr ""
+
+#: includes/wpsp-misc.php:640
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/wpsp-misc.php:643
+msgid "Eritrea"
+msgstr ""
+
+#: includes/wpsp-misc.php:646
+msgid "Estonia"
+msgstr ""
+
+#: includes/wpsp-misc.php:649
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/filter_menu.php:19
+msgid "Events"
+msgstr ""
+
+#: includes/filter_menu.php:14
+msgid "Exams"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:535 includes/wpsp-studentList.php:99
+msgid "Export"
+msgstr ""
+
+#: includes/wpsp-misc.php:652
+msgid "Falkland Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:655
+msgid "Faroe Islands"
+msgstr ""
+
+#: pages/wpsp-settings.php:110 pages/wpsp-settings.php:132
+msgid "Fields"
+msgstr ""
+
+#: includes/wpsp-misc.php:658
+msgid "Fiji"
+msgstr ""
+
+#: includes/wpsp-misc.php:661
+msgid "Finland"
+msgstr ""
+
+#: includes/wpsp-parentList.php:7 includes/wpsp-teacherList.php:29
+msgid "First Name"
+msgstr ""
+
+#: includes/wpsp-login.php:106
+msgid "Forgot password?"
+msgstr ""
+
+#: includes/wpsp-misc.php:664
+msgid "France"
+msgstr ""
+
+#: includes/wpsp-misc.php:667
+msgid "French Guiana"
+msgstr ""
+
+#: includes/wpsp-misc.php:670
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/wpsp-misc.php:673
+msgid "French Southern Territories"
+msgstr ""
+
+#: pages/wpsp-messages.php:191 pages/wpsp-messages.php:195
+msgid "From"
+msgstr ""
+
+#: includes/wpsp-studentList.php:142 pages/wpsp-teacher.php:57
+#: pages/wpsp-teacher.php:109
+msgid "Full Name"
+msgstr ""
+
+#: includes/wpsp-misc.php:676
+msgid "Gabon"
+msgstr ""
+
+#: includes/wpsp-misc.php:679
+msgid "Gambia"
+msgstr ""
+
+#: includes/wpsp-parentList.php:13 includes/wpsp-teacherList.php:53
+#: includes/wpsp-teacherList.php:81 includes/wpsp-studentList.php:13
+#: pages/wpsp-student.php:126
+msgid "Gender"
+msgstr ""
+
+#: includes/filter_menu.php:22
+msgid "General Settings"
+msgstr ""
+
+#: pages/wpsp-leavecalendar.php:30
+msgid "Generate Leave days for a class"
+msgstr ""
+
+#: includes/wpsp-misc.php:682
+msgid "Georgia"
+msgstr ""
+
+#: includes/wpsp-misc.php:685
+msgid "Germany"
+msgstr ""
+
+#: includes/wpsp-misc.php:688
+msgid "Ghana"
+msgstr ""
+
+#: includes/wpsp-misc.php:691
+msgid "Gibraltar"
+msgstr ""
+
+#: pages/wpsp-marks.php:189
+msgid "Grade"
+msgstr ""
+
+#: includes/wpsp-misc.php:694
+msgid "Greece"
+msgstr ""
+
+#: includes/wpsp-misc.php:697
+msgid "Greenland"
+msgstr ""
+
+#: includes/wpsp-misc.php:700
+msgid "Grenada"
+msgstr ""
+
+#: includes/wpsp-misc.php:703
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/wpsp-misc.php:706
+msgid "Guatemala"
+msgstr ""
+
+#: includes/wpsp-misc.php:709
+msgid "Guernsey"
+msgstr ""
+
+#: includes/wpsp-misc.php:712
+msgid "Guinea"
+msgstr ""
+
+#: includes/wpsp-misc.php:715
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/wpsp-misc.php:718
+msgid "Guyana"
+msgstr ""
+
+#: includes/wpsp-misc.php:721
+msgid "Haiti"
+msgstr ""
+
+#: includes/wpsp-misc.php:724
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:727
+msgid "Honduras"
+msgstr ""
+
+#: includes/wpsp-misc.php:730
+msgid "Hong Kong"
+msgstr ""
+
+#: pages/wpsp-notify.php:242
+msgid "How to notify?"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wpschoolpress.com"
+msgstr ""
+
+#: includes/wpsp-misc.php:733
+msgid "Hungary"
+msgstr ""
+
+#: includes/wpsp-misc.php:736
+msgid "Iceland"
+msgstr ""
+
+#: includes/filter_menu.php:26
+msgid "Import History"
+msgstr ""
+
+#: pages/wpsp-messages.php:194
+msgid "Inbox Items"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:739 includes/wpsp-teacherList.php:911
+msgid "Incharge Class"
+msgstr ""
+
+#: pages/wpsp-teacher.php:58 pages/wpsp-teacher.php:110
+msgid "Incharge of Class"
+msgstr ""
+
+#: includes/wpsp-misc.php:739
+msgid "India"
+msgstr ""
+
+#: includes/wpsp-misc.php:742
+msgid "Indonesia"
+msgstr ""
+
+#: pages/wpsp-settings.php:400
+msgid "Info"
+msgstr ""
+
+#: pages/wpsp-settings.php:250
+msgid "Invalid Class Time."
+msgstr ""
+
+#: includes/wpsp-misc.php:745
+msgid "Iran"
+msgstr ""
+
+#: includes/wpsp-misc.php:748
+msgid "Iraq"
+msgstr ""
+
+#: includes/wpsp-misc.php:754
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/wpsp-misc.php:757
+msgid "Israel"
+msgstr ""
+
+#: includes/wpsp-misc.php:760
+msgid "Italy"
+msgstr ""
+
+#: includes/wpsp-misc.php:763
+msgid "Ivory Coast"
+msgstr ""
+
+#: includes/wpsp-misc.php:766
+msgid "Jamaica"
+msgstr ""
+
+#: includes/wpsp-misc.php:769
+msgid "Japan"
+msgstr ""
+
+#: includes/wpsp-misc.php:772
+msgid "Jersey"
+msgstr ""
+
+#: includes/wpsp-misc.php:775
+msgid "Jordan"
+msgstr ""
+
+#: includes/wpsp-misc.php:778
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/wpsp-misc.php:781
+msgid "Kenya"
+msgstr ""
+
+#: includes/wpsp-misc.php:784
+msgid "Kiribati"
+msgstr ""
+
+#: includes/wpsp-misc.php:787
+msgid "Kuwait"
+msgstr ""
+
+#: includes/wpsp-misc.php:790
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/wpsp-misc.php:793
+msgid "Laos"
+msgstr ""
+
+#: includes/wpsp-parentList.php:9 includes/wpsp-teacherList.php:37
+msgid "Last Name"
+msgstr ""
+
+#: includes/wpsp-misc.php:796
+msgid "Latvia"
+msgstr ""
+
+#: includes/filter_menu.php:25
+msgid "Leave Calender"
+msgstr ""
+
+#: includes/wpsp-misc.php:799
+msgid "Lebanon"
+msgstr ""
+
+#: includes/wpsp-misc.php:802
+msgid "Lesotho"
+msgstr ""
+
+#: includes/wpsp-misc.php:805
+msgid "Liberia"
+msgstr ""
+
+#: includes/wpsp-misc.php:808
+msgid "Libya"
+msgstr ""
+
+#: pages/wpsp-settings.php:402
+msgid "Licensing"
+msgstr ""
+
+#: includes/wpsp-misc.php:811
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/wpsp-misc.php:814
+msgid "Lithuania"
+msgstr ""
+
+#: includes/wpsp-login.php:105
+msgid "login"
+msgstr ""
+
+#: includes/wpsp-misc.php:817
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/wpsp-misc.php:820
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: includes/wpsp-misc.php:823
+msgid "Macedonia"
+msgstr ""
+
+#: includes/wpsp-misc.php:826
+msgid "Madagascar"
+msgstr ""
+
+#: includes/wpsp-misc.php:829
+msgid "Malawi"
+msgstr ""
+
+#: includes/wpsp-misc.php:832
+msgid "Malaysia"
+msgstr ""
+
+#: includes/wpsp-misc.php:835
+msgid "Maldives"
+msgstr ""
+
+#: includes/wpsp-misc.php:838
+msgid "Mali"
+msgstr ""
+
+#: includes/wpsp-misc.php:841
+msgid "Malta"
+msgstr ""
+
+#: pages/wpsp-marks.php:183
+msgid "Mark"
+msgstr ""
+
+#: includes/filter_menu.php:13 pages/wpsp-marks.php:186
+msgid "Marks"
+msgstr ""
+
+#: pages/wpsp-marks.php:169
+msgid "Marks Already Entered update here!"
+msgstr ""
+
+#: includes/wpsp-misc.php:844
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:847
+msgid "Martinique"
+msgstr ""
+
+#: includes/wpsp-misc.php:850
+msgid "Mauritania"
+msgstr ""
+
+#: includes/wpsp-misc.php:853
+msgid "Mauritius"
+msgstr ""
+
+#: includes/wpsp-misc.php:856
+msgid "Mayotte"
+msgstr ""
+
+#: lib/wpsp-admin.php:50
+msgid "Message"
+msgstr ""
+
+#: includes/filter_menu.php:8
+msgid "Messages"
+msgstr ""
+
+#: includes/wpsp-misc.php:859
+msgid "Mexico"
+msgstr ""
+
+#: includes/wpsp-misc.php:862
+msgid "Micronesia"
+msgstr ""
+
+#: includes/wpsp-parentList.php:8 includes/wpsp-teacherList.php:33
+msgid "Middle Name"
+msgstr ""
+
+#: includes/wpsp-misc.php:865
+msgid "Moldova"
+msgstr ""
+
+#: includes/wpsp-misc.php:868
+msgid "Monaco"
+msgstr ""
+
+#: includes/wpsp-misc.php:871
+msgid "Mongolia"
+msgstr ""
+
+#: includes/wpsp-misc.php:874
+msgid "Montenegro"
+msgstr ""
+
+#: includes/wpsp-misc.php:877
+msgid "Montserrat"
+msgstr ""
+
+#: includes/wpsp-misc.php:880
+msgid "Morocco"
+msgstr ""
+
+#: includes/wpsp-misc.php:883
+msgid "Mozambique"
+msgstr ""
+
+#: includes/wpsp-misc.php:886
+msgid "Myanmar"
+msgstr ""
+
+#: lib/wpsp-admin.php:42 includes/wpsp-teacherList.php:735
+#: includes/wpsp-teacherList.php:907 pages/wpsp-marks.php:182
+#: pages/wpsp-notify.php:293 pages/wpsp-notify.php:329
+msgid "Name"
+msgstr ""
+
+#: includes/wpsp-misc.php:889
+msgid "Namibia"
+msgstr ""
+
+#: includes/wpsp-misc.php:892
+msgid "Nauru"
+msgstr ""
+
+#: includes/wpsp-misc.php:895
+msgid "Nepal"
+msgstr ""
+
+#: includes/wpsp-misc.php:898
+msgid "Netherlands"
+msgstr ""
+
+#: includes/wpsp-misc.php:901
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/wpsp-misc.php:904
+msgid "New Caledonia"
+msgstr ""
+
+#: pages/wpsp-changepassword.php:31
+msgid "New Password"
+msgstr ""
+
+#: includes/wpsp-subjectForm.php:19
+msgid "New Subject Entry"
+msgstr ""
+
+#: includes/wpsp-misc.php:907
+msgid "New Zealand"
+msgstr ""
+
+#: includes/wpsp-misc.php:910
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/wpsp-misc.php:913
+msgid "Niger"
+msgstr ""
+
+#: includes/wpsp-misc.php:916
+msgid "Nigeria"
+msgstr ""
+
+#: includes/wpsp-misc.php:919
+msgid "Niue"
+msgstr ""
+
+#: pages/wpsp-settings.php:85
+msgid "No data retrived!"
+msgstr ""
+
+#: pages/wpsp-marks.php:222 pages/wpsp-marks.php:329
+msgid "No Students to retrive"
+msgstr ""
+
+#: pages/wpsp-marks.php:290
+msgid "No Students to retrive3"
+msgstr ""
+
+#: includes/wpsp-misc.php:922
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/wpsp-misc.php:925
+msgid "North Korea"
+msgstr ""
+
+#: includes/wpsp-misc.php:928
+msgid "Norway"
+msgstr ""
+
+#: includes/filter_menu.php:20
+msgid "Notify"
+msgstr ""
+
+#: includes/wpsp-misc.php:931
+msgid "Oman"
+msgstr ""
+
+#: includes/wpsp-misc.php:934
+msgid "Pakistan"
+msgstr ""
+
+#: includes/wpsp-misc.php:937
+msgid "Palestinian Territory"
+msgstr ""
+
+#: includes/wpsp-misc.php:940
+msgid "Panama"
+msgstr ""
+
+#: includes/wpsp-misc.php:943
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/wpsp-misc.php:946
+msgid "Paraguay"
+msgstr ""
+
+#: includes/wpsp-studentList.php:143
+msgid "Parent"
+msgstr ""
+
+#: includes/wpsp-studentProfile.php:448
+msgid "Parent Detail"
+msgstr ""
+
+#: includes/wpsp-studentForm.php:449
+msgid "Parent Detail 1"
+msgstr ""
+
+#: includes/wpsp-studentForm.php:790
+msgid "Parent Detail 2"
+msgstr ""
+
+#: includes/wpsp-parentList.php:11 includes/wpsp-parentList.php:175
+#: includes/wpsp-parentList.php:220
+msgid "Parent Email ID"
+msgstr ""
+
+#: lib/wpsp-ajaxworks-student.php:1013
+msgid "Parent Email:"
+msgstr ""
+
+#: includes/wpsp-studentList.php:16
+msgid "Parent First Name"
+msgstr ""
+
+#: lib/wpsp-ajaxworks-student.php:1010
+msgid "Parent Gender:"
+msgstr ""
+
+#: includes/wpsp-parentList.php:173 includes/wpsp-parentList.php:218
+#: pages/wpsp-student.php:214
+msgid "Parent Name"
+msgstr ""
+
+#: lib/wpsp-ajaxworks-student.php:1007
+msgid "Parent Name:"
+msgstr ""
+
+#: wpsp-layout.php:978 includes/filter_menu.php:7 pages/wpsp-dashboard.php:581
+msgid "Parents"
+msgstr ""
+
+#: includes/wpsp-login.php:103
+msgid "Password"
+msgstr ""
+
+#: includes/filter_menu.php:28
+msgid "Payment"
+msgstr ""
+
+#: includes/wpsp-studentList.php:146
+msgid "Payment Status"
+msgstr ""
+
+#: includes/wpsp-studentList.php:15 pages/wpsp-student.php:138
+#: pages/wpsp-student.php:215
+msgid "Permanent Address"
+msgstr ""
+
+#: pages/wpsp-student.php:142
+msgid "Permanent Country"
+msgstr ""
+
+#: pages/wpsp-student.php:145
+msgid "Permanent Zipcode"
+msgstr ""
+
+#: includes/wpsp-teacherForm.php:9 includes/wpsp-studentProfile.php:34
+#: includes/wpsp-studentForm.php:14
+msgid "Personal Details"
+msgstr ""
+
+#: includes/wpsp-misc.php:949
+msgid "Peru"
+msgstr ""
+
+#: includes/wpsp-misc.php:952
+msgid "Philippines"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:747 includes/wpsp-teacherList.php:919
+#: includes/wpsp-studentList.php:151 pages/wpsp-teacher.php:60
+#: pages/wpsp-teacher.php:112
+msgid "Phone"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:73 includes/wpsp-studentList.php:20
+#: pages/wpsp-student.php:153
+msgid "Phone Number"
+msgstr ""
+
+#: includes/wpsp-misc.php:955
+msgid "Pitcairn"
+msgstr ""
+
+#: pages/wpsp-settings.php:248
+msgid "Please fill all values."
+msgstr ""
+
+#: pages/wpsp-settings.php:633
+msgid ""
+"Please Purchase This <a href=\"https://wpschoolpress.com/downloads/sms-add-"
+"on-wpschoolpress/\" target=\"_blank\">Add-on</a>"
+msgstr ""
+
+#: includes/wpsp-misc.php:958
+msgid "Poland"
+msgstr ""
+
+#: includes/wpsp-misc.php:961
+msgid "Portugal"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:89
+msgid "Position"
+msgstr ""
+
+#: includes/wpsp-login.php:110
+msgid "Powered by"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:291 includes/wpsp-teacherList.php:399
+#: includes/wpsp-studentList.php:69
+msgid "Print"
+msgstr ""
+
+#: includes/wpsp-parentList.php:14
+msgid "Profession"
+msgstr ""
+
+#: pages/wpsp-notify.php:25
+msgid "Push Notification (Android & IOS)"
+msgstr ""
+
+#: includes/wpsp-misc.php:964
+msgid "Qatar"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:77
+msgid "Qualification"
+msgstr ""
+
+#: pages/wpsp-notify.php:295 pages/wpsp-notify.php:331
+msgid "Receiver"
+msgstr ""
+
+#: includes/wpsp-login.php:107
+msgid "Register"
+msgstr ""
+
+#: includes/filter_menu.php:9
+msgid "Registration Request"
+msgstr ""
+
+#: pages/wpsp-marks.php:191
+msgid "Remarks"
+msgstr ""
+
+#: includes/wpsp-misc.php:751
+msgid "Republic of Ireland"
+msgstr ""
+
+#: includes/wpsp-misc.php:967
+msgid "Reunion"
+msgstr ""
+
+#: includes/wpsp-studentList.php:141 pages/wpsp-student.php:118
+#: pages/wpsp-student.php:212
+msgid "Roll No."
+msgstr ""
+
+#: includes/wpsp-studentList.php:7
+msgid "Roll Number"
+msgstr ""
+
+#: pages/wpsp-marks.php:181
+msgid "RollNo."
+msgstr ""
+
+#: includes/wpsp-misc.php:970
+msgid "Romania"
+msgstr ""
+
+#: includes/wpsp-misc.php:973
+msgid "Russia"
+msgstr ""
+
+#: includes/wpsp-misc.php:976
+msgid "Rwanda"
+msgstr ""
+
+#: includes/wpsp-misc.php:1006
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: includes/wpsp-misc.php:979
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: includes/wpsp-misc.php:982
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/wpsp-misc.php:985
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/wpsp-misc.php:988
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/wpsp-misc.php:994
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: includes/wpsp-misc.php:991
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: includes/wpsp-misc.php:997
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/wpsp-misc.php:1000
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/wpsp-misc.php:1003
+msgid "San Marino"
+msgstr ""
+
+#: includes/wpsp-misc.php:1009
+msgid "Saudi Arabia"
+msgstr ""
+
+#: pages/wpsp-settings.php:743
+msgid "Save"
+msgstr ""
+
+#: includes/wpsp-teacherForm.php:463 includes/wpsp-studentProfile.php:785
+#: includes/wpsp-studentForm.php:1247
+msgid "School Details"
+msgstr ""
+
+#: pages/wpsp-marks.php:63
+msgid "Select Class"
+msgstr ""
+
+#: includes/wpsp-parentList.php:35 includes/wpsp-teacherList.php:217
+#: includes/wpsp-studentList.php:46
+msgid "Select Class Name"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:571 includes/wpsp-studentList.php:106
+msgid "Select Columns to Export"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:319 includes/wpsp-teacherList.php:427
+#: includes/wpsp-studentList.php:76
+msgid "Select Columns to Print"
+msgstr ""
+
+#: pages/wpsp-marks.php:90
+msgid "Select Exam"
+msgstr ""
+
+#: pages/wpsp-registration-request.php:19
+msgid "Select Role:"
+msgstr ""
+
+#: pages/wpsp-marks.php:121
+msgid "Select Subject"
+msgstr ""
+
+#: pages/wpsp-settings.php:610
+msgid "Send SMS to parent when student absent"
+msgstr ""
+
+#: includes/wpsp-misc.php:1012
+msgid "Senegal"
+msgstr ""
+
+#: pages/wpsp-messages.php:197
+msgid "Sent Items"
+msgstr ""
+
+#: includes/wpsp-misc.php:1015
+msgid "Serbia"
+msgstr ""
+
+#: lib/wpsp-admin-options.php:18 includes/filter_menu.php:23
+msgid "Settings"
+msgstr ""
+
+#: includes/wpsp-misc.php:1018
+msgid "Seychelles"
+msgstr ""
+
+#: includes/wpsp-misc.php:1021
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/wpsp-misc.php:1024
+msgid "Singapore"
+msgstr ""
+
+#: includes/wpsp-misc.php:1027
+msgid "Slovakia"
+msgstr ""
+
+#: includes/wpsp-misc.php:1030
+msgid "Slovenia"
+msgstr ""
+
+#: pages/wpsp-notify.php:23 pages/wpsp-notify.php:246
+#: pages/wpsp-settings.php:401
+msgid "SMS"
+msgstr ""
+
+#: pages/wpsp-settings.php:608
+msgid "SMS Setting"
+msgstr ""
+
+#: includes/wpsp-misc.php:1033
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:1036
+msgid "Somalia"
+msgstr ""
+
+#: pages/wpsp-student.php:170
+msgid "Sorry! No data retrieved"
+msgstr ""
+
+#: includes/wpsp-misc.php:1039
+msgid "South Africa"
+msgstr ""
+
+#: includes/wpsp-misc.php:1042
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:1045
+msgid "South Korea"
+msgstr ""
+
+#: includes/wpsp-misc.php:1048
+msgid "South Sudan"
+msgstr ""
+
+#: includes/wpsp-misc.php:1051
+msgid "Spain"
+msgstr ""
+
+#: includes/wpsp-misc.php:1054
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/wpsp-studentList.php:144
+msgid "Street Address"
+msgstr ""
+
+#: includes/wpsp-studentList.php:8
+msgid "Student First Name"
+msgstr ""
+
+#: includes/wpsp-studentList.php:10
+msgid "Student Last Name"
+msgstr ""
+
+#: includes/wpsp-studentList.php:9
+msgid "Student Middle Name"
+msgstr ""
+
+#: includes/wpsp-parentList.php:10 pages/wpsp-student.php:213
+msgid "Student Name"
+msgstr ""
+
+#: includes/filter_menu.php:6 pages/wpsp-dashboard.php:569
+msgid "Students"
+msgstr ""
+
+#: includes/filter_menu.php:17
+msgid "Students Attendance"
+msgstr ""
+
+#: pages/wpsp-settings.php:109 pages/wpsp-settings.php:131
+msgid "Subject"
+msgstr ""
+
+#: includes/filter_menu.php:12
+msgid "Subject Mark Fields"
+msgstr ""
+
+#: pages/wpsp-settings.php:66
+msgid "Subject:"
+msgstr ""
+
+#: includes/filter_menu.php:11
+msgid "Subjects"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:743 includes/wpsp-teacherList.php:915
+#: pages/wpsp-teacher.php:59 pages/wpsp-teacher.php:111
+msgid "Subjects Handling"
+msgstr ""
+
+#: includes/wpsp-examForm.php:18
+msgid "Submit"
+msgstr ""
+
+#: lib/wpsp-admin.php:30
+msgid ""
+"Subscribers can update new features right from their plugin dashboard. "
+"Kindly, make sure that you have license code above. If not contact us."
+msgstr ""
+
+#: includes/wpsp-misc.php:1057
+msgid "Sudan"
+msgstr ""
+
+#: includes/wpsp-misc.php:1060
+msgid "Suriname"
+msgstr ""
+
+#: includes/wpsp-misc.php:1063
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: includes/wpsp-misc.php:1066
+msgid "Swaziland"
+msgstr ""
+
+#: includes/wpsp-misc.php:1069
+msgid "Sweden"
+msgstr ""
+
+#: includes/wpsp-misc.php:1072
+msgid "Switzerland"
+msgstr ""
+
+#: includes/wpsp-misc.php:1075
+msgid "Syria"
+msgstr ""
+
+#: includes/wpsp-misc.php:1078
+msgid "Taiwan"
+msgstr ""
+
+#: includes/wpsp-misc.php:1081
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/wpsp-misc.php:1084
+msgid "Tanzania"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:41
+msgid "Teacher Email"
+msgstr ""
+
+#: includes/filter_menu.php:5 pages/wpsp-dashboard.php:575
+msgid "Teachers"
+msgstr ""
+
+#: includes/filter_menu.php:18
+msgid "Teachers Attendance"
+msgstr ""
+
+#: includes/wpsp-misc.php:1087
+msgid "Thailand"
+msgstr ""
+
+#: includes/filter_menu.php:15
+msgid "Time Table"
+msgstr ""
+
+#: includes/wpsp-misc.php:1090
+msgid "Timor-Leste"
+msgstr ""
+
+#: pages/wpsp-messages.php:198 pages/wpsp-messages.php:202
+msgid "To"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:303 includes/wpsp-teacherList.php:411
+#: includes/wpsp-teacherList.php:551 includes/wpsp-studentList.php:72
+#: includes/wpsp-studentList.php:101
+msgid "Toggle Dropdown"
+msgstr ""
+
+#: includes/wpsp-misc.php:1093
+msgid "Togo"
+msgstr ""
+
+#: includes/wpsp-misc.php:1096
+msgid "Tokelau"
+msgstr ""
+
+#: includes/wpsp-misc.php:1099
+msgid "Tonga"
+msgstr ""
+
+#: includes/filter_menu.php:21
+msgid "Transport"
+msgstr ""
+
+#: pages/wpsp-messages.php:201
+msgid "Trash Items"
+msgstr ""
+
+#: includes/wpsp-misc.php:1102
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/wpsp-misc.php:1105
+msgid "Tunisia"
+msgstr ""
+
+#: includes/wpsp-misc.php:1108
+msgid "Turkey"
+msgstr ""
+
+#: includes/wpsp-misc.php:1111
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/wpsp-misc.php:1114
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/wpsp-misc.php:1117
+msgid "Tuvalu"
+msgstr ""
+
+#: pages/wpsp-notify.php:296 pages/wpsp-notify.php:332
+msgid "Type"
+msgstr ""
+
+#: includes/wpsp-misc.php:1120
+msgid "Uganda"
+msgstr ""
+
+#: includes/wpsp-misc.php:1123
+msgid "Ukraine"
+msgstr ""
+
+#: includes/wpsp-misc.php:1126
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/wpsp-misc.php:1129
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: includes/wpsp-misc.php:1132
+msgid "United States (US)"
+msgstr ""
+
+#: includes/wpsp-examForm.php:18
+msgid "Update"
+msgstr ""
+
+#: pages/wpsp-class.php:18
+msgid "Update Class"
+msgstr ""
+
+#: includes/wpsp-classForm.php:29
+msgid "Update Class Information"
+msgstr ""
+
+#: pages/wpsp-exams.php:20
+msgid "Update Exam"
+msgstr ""
+
+#: includes/wpsp-examForm.php:16
+msgid "Update Exam Information"
+msgstr ""
+
+#: pages/wpsp-student.php:16
+msgid "Update Student"
+msgstr ""
+
+#: pages/wpsp-marks.php:144
+msgid "Upload CSV"
+msgstr ""
+
+#: includes/wpsp-misc.php:1135
+msgid "Uruguay"
+msgstr ""
+
+#: includes/wpsp-login.php:101
+msgid "Username or Email"
+msgstr ""
+
+#: includes/wpsp-misc.php:1138
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/wpsp-misc.php:1141
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/wpsp-misc.php:1144
+msgid "Vatican"
+msgstr ""
+
+#: includes/wpsp-misc.php:1147
+msgid "Venezuela"
+msgstr ""
+
+#: includes/wpsp-misc.php:1150
+msgid "Vietnam"
+msgstr ""
+
+#: pages/wpsp-teacher-attendance.php:28
+msgid "View"
+msgstr ""
+
+#: pages/wpsp-marks.php:146
+msgid "View Marks"
+msgstr ""
+
+#: pages/wpsp-messages.php:205
+msgid "View Message"
+msgstr ""
+
+#: includes/wpsp-misc.php:1153
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: pages/wpsp-notify.php:24
+msgid "Web Notification"
+msgstr ""
+
+#: includes/wpsp-misc.php:1156
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/wpsp-misc.php:1159
+msgid "Western Samoa"
+msgstr ""
+
+#: pages/wpsp-notify.php:217
+msgid "Whom to notify?"
+msgstr ""
+
+#: includes/filter_menu.php:24 includes/wpsp-teacherList.php:93
+msgid "Working Hours"
+msgstr ""
+
+#. Name of the plugin
+#: wpsp-layout.php:46 wpsp-class-admin.php:35 wpsp-class-admin.php:35
+msgid "WPSchoolPress"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WPSchoolpress is a school management system plugin that makes school "
+"activities transparent to parents. For more information please visit our "
+"website."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPSchoolPress Team"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "wpschoolpress.com"
+msgstr ""
+
+#: includes/wpsp-misc.php:1162
+msgid "Yemen"
+msgstr ""
+
+#: includes/wpsp-misc.php:1165
+msgid "Zambia"
+msgstr ""
+
+#: includes/wpsp-misc.php:1168
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/wpsp-teacherList.php:45 includes/wpsp-studentList.php:11
+msgid "Zip Code"
+msgstr ""

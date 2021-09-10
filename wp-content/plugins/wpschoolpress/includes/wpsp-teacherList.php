@@ -668,7 +668,7 @@ $plugins_url=plugins_url();
 
 
 
-					<option value="">Seleccionar Acción</option>
+					<option value="">Seleccione</option>
 
 
 

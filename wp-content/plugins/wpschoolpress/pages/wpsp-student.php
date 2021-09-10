@@ -115,7 +115,7 @@ wpsp_header();
 														<table id="studentchildInfo" class="wpsp-table table-user-information" cellspacing="0" width="100%" style="width:100%">
 															<tbody>
 															<tr>
-																<td class="bold" width="200px"><?php _e( 'Roll No.', 'WPSchoolPress'); ?></td>
+																<td class="bold" width="200px"><?php _e( 'DNI', 'WPSchoolPress'); ?></td>
 																<td><?php echo $stinfo->s_rollno;	?></td>
 															</tr>
 															<tr>
@@ -209,7 +209,7 @@ wpsp_header();
 					<thead>
 					<tr>
 						<th>#</th>
-						<th><?php echo apply_filters( 'wpsp_student_table_rollno_heading',esc_html__('Roll No.','WPSchoolPress'));?></th>
+						<th><?php echo apply_filters( 'wpsp_student_table_rollno_heading',esc_html__('DNI','WPSchoolPress'));?></th>
 						<th><?php echo apply_filters( 'wpsp_student_table_fullname_heading',esc_html__('Student Name','WPSchoolPress'));?></th>
 						<th><?php echo apply_filters( 'wpsp_student_table_parent_heading',esc_html__('Parent Name','WPSchoolPress'));?></th>
 						<th><?php echo apply_filters( 'wpsp_student_table_streetaddress_heading',esc_html__('Permanent Address','WPSchoolPress'));?></th>

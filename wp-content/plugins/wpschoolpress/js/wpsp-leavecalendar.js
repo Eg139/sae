@@ -11,7 +11,7 @@ $(document).ready(function() {
         previous: '<i class="fa fa-angle-double-left" aria-hidden="true"></i>'
       },
       search: "",
-      searchPlaceholder: "Search..."
+      searchPlaceholder: "Buscar..."
     },
     dom: '<"wpsp-dataTable-top"f>rt<"wpsp-dataTable-bottom"<"wpsp-length-info"li>p<"clear">>',
     order: [],
@@ -46,10 +46,10 @@ $(document).ready(function() {
     })
   }), $(".leaveDelete").click(function() {
     var a = $(this).attr("data-id");
-    $.isNumeric(a) ? $("#leaveModalBody").html("<h4>Are you sure want to delete all dates?</h4><div class='pull-right'><div class='btn btn-default' data-dismiss='modal' id='AllDeleteCancel'>Cancel</div>&nbsp; <div class='btn btn-danger' data-id='" + a + "' id='AllDeleteConfirm'>Confirm</div></div><div style='clear:both'></div>") : $("#leaveModalBody").html("Class id missing can't delete. Please report it to support for deletion"), $("#leaveModalHeader").html("Delete all date"), $("#leaveModal").modal("show")
+    $.isNumeric(a) ? $("#leaveModalBody").html("<h4>Are you sure want to delete all dates?</h4><div class='pull-right'><div class='btn btn-default' data-dismiss='modal' id='AllDeleteCancel'>Cancel</div>  <div class='btn btn-danger' data-id='" + a + "' id='AllDeleteConfirm'>Confirm</div></div><div style='clear:both'></div>") : $("#leaveModalBody").html("Class id missing can't delete. Please report it to support for deletion"), $("#leaveModalHeader").html("Delete all date"), $("#leaveModal").modal("show")
   }), $(document).on("click", ".dateDelete", function() {
     var a = $(this).attr("data-id");
-    $.isNumeric(a) ? $("#leaveModalBody").html("<h4>Are you sure want to delete this dates?</h4><div class='pull-right'><div class='btn btn-default' data-dismiss='modal' id='DateDeleteCancel'>Cancel</div>&nbsp; <div class='btn btn-danger' data-id='" + a + "' id='DateDeleteConfirm'>Confirm</div></div><div style='clear:both'></div>") : $("#leaveModalBody").html("Class id missing can't delete. Please report it to support for deletion"), $("#leaveModalHeader").html("Delete all date"), $("#leaveModal").modal("show")
+    $.isNumeric(a) ? $("#leaveModalBody").html("<h4>Are you sure want to delete this dates?</h4><div class='pull-right'><div class='btn btn-default' data-dismiss='modal' id='DateDeleteCancel'>Cancel</div>  <div class='btn btn-danger' data-id='" + a + "' id='DateDeleteConfirm'>Confirm</div></div><div style='clear:both'></div>") : $("#leaveModalBody").html("Class id missing can't delete. Please report it to support for deletion"), $("#leaveModalHeader").html("Delete all date"), $("#leaveModal").modal("show")
   }), $(document).on("click", "#d_teacher", function(a) {
     var e = $(this).data("id");
     console.log(e), $("#teacherid").val(e), $("#DeleteModal").css("display", "block")

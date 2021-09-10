@@ -783,6 +783,7 @@
     </div>
     </div>
 <!--oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo--->
+
 <div class="wpsp-row">
        <div class="wpsp-col-xs-12">
         <div class="wpsp-card">
@@ -799,107 +800,62 @@
                             $is_required_parent = apply_filters('wpsp_student_parent_is_required',array());
                         ?>
 
-                    <div class="wpsp-col-lg-3 wpsp-col-md-4 wpsp-col-sm-4 wpsp-col-xs-12">
-                            <div class="wpsp-form-group">
-                                <label class="customUpload btnUpload  wpsp-label">
-                                  <?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Profile Image","WPSchoolPress"));
-                                  if(isset($item['section']) && $item['section'] == "parent" && isset($item['p_displaypicture'])){
-                                        echo esc_html($item['p_displaypicture'],"WPSchoolPress");
-                                  }else{
-                                      echo esc_html("Profile Image","WPSchoolPress");
-                                  }
-                                  ?>
-                                  </label>
-                                <div class="wpsp-profileUp">
-                                    <img class="wpsp-upAvatar" id="img_preview1"  src="<?php echo plugins_url();?>/wpschoolpress/img/default_avtar.jpg">
-                                    <!-- <img class="wpsp-upAvatar" id="img_preview1"  src="http://betatesting87.com/wpschoolpresstest/wp-content/plugins/wpschoolpress/img/default_avtar.jpg"> -->
-                                    <div class="wpsp-upload-button"><i class="fa fa-camera"></i>
-                                    <input name="p_displaypicture" class="wpsp-file-upload" id="p_displaypicture" type="file" accept="image/jpg, image/jpeg" />
-                                    </div>
-                                </div>
-                                <p class="wpsp-form-notes">* Only JPEG and JPG supported, * Max 3 MB Upload </p>
-                                <label id="pdisplaypicture-error" class="error" for="pdisplaypicture" style="display: none;">
-                                Please Upload Profile Image</label>
-                                <p id="test" style="color:red"></p>
-                            </div>
-                    </div>
-                    <div class="wpsp-col-lg-9 wpsp-col-md-8 wpsp-col-sm-12 wpsp-col-xs-12">
-                            <div class="wpsp-form-group">
-                                <label class="wpsp-label" for="p_gender">
-                                  <?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Gender","WPSchoolPress"));
-                                  if(isset($item['section']) && $item['section'] == "parent" && isset($item['p_gender'])){
-                                        echo esc_html($item['p_gender'],"WPSchoolPress");
-                                  }else{
-                                      echo esc_html("Gender","WPSchoolPress");
-                                  }
-                                  ?>
-                                  </label>
-                                <div class="wpsp-radio-inline">
-                                    <div class="wpsp-radio">
-                                        <input type="radio" name="p_gender" value="Male" checked="checked" id="p_Male">
-                                        <label for="Male">Male</label>
-                                    </div>
-                                    <div class="wpsp-radio">
-                                        <input type="radio" name="p_gender" value="Female" id="p_Female">
-                                        <label for="Female">Female</label>
-                                    </div>
-                                    <div class="wpsp-radio">
-                                        <input type="radio" name="p_gender" value="other" id="p_other">
-                                        <label for="other">Other</label>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
+
+                    <!--Primer nombre del segundo familiar-->
                     <div class="clearfix wpsp-ipad-show"></div>
                     <div class="wpsp-col-lg-3 wpsp-col-md-4 wpsp-col-sm-4 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
                             <label class="wpsp-label" for="firstname">
                               <?php $pl = "";
                                $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("First Name","WPSchoolPress"));
-                              if(isset($item['section']) && $item['section'] == "parent" && isset($item['p_fname'])){
-                                    echo $pl = esc_html($item['p_fname'],"WPSchoolPress");
+                              if(isset($item['section']) && $item['section'] == "parent" && isset($item['p2_fname'])){
+                                    echo $pl = esc_html($item['p2_fname'],"WPSchoolPress");
 
                               }else{
                                   echo $pl = esc_html("First Name","WPSchoolPress");
                               }
                               /*Check Required Field*/
-                              if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p_fname'])){
-                                  $is_required =  $is_required_parent['p_fname'];
+                              if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p2_fname'])){
+                                  $is_required =  $is_required_parent['p2_fname'];
                               }else{
                                   $is_required = false;
                               }
                               ?>
                               <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
-                            <input type="text" class="wpsp-form-control" data-is_required="<?php echo $is_required; ?>" id="p_firstname" name="p_fname" placeholder="<?php echo $pl;?>">
+                            <input type="text" class="wpsp-form-control" data-is_required="<?php echo $is_required; ?>" id="p2_firstname" name="p2_fname" placeholder="<?php echo $pl;?>">
                         </div>
                     </div>
+
+                    <!--Segundo nombre del segundo familiar-->
                     <div class="wpsp-col-lg-3 wpsp-col-md-4 wpsp-col-sm-4 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
                             <label class="wpsp-label" for="middlename"><?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Middle Name","WPSchoolPress"));
                               $pl = "";
-                              if(isset($item['section']) && $item['section'] == "parent" && isset($item['p_mname'])){
-                                    echo $pl = esc_html($item['p_mname'],"WPSchoolPress");
+                              if(isset($item['section']) && $item['section'] == "parent" && isset($item['p2_mname'])){
+                                    echo $pl = esc_html($item['p2_mname'],"WPSchoolPress");
 
                               }else{
                                   echo $pl = esc_html("Middle Name","WPSchoolPress");
                               }
                               /*Check Required Field*/
-                              if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p_mname'])){
-                                  $is_required =  $is_required_parent['p_mname'];
+                              if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p2_mname'])){
+                                  $is_required =  $is_required_parent['p2_mname'];
                               }else{
                                   $is_required = false;
                               }
                               ?>
                               <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
-                            <input type="text" class="wpsp-form-control" <?php echo $is_required; ?> id="p_middlename" name="p_mname" placeholder="<?php echo $pl; ?>">
+                            <input type="text" class="wpsp-form-control" <?php echo $is_required; ?> id="p_middlename" name="p2_mname" placeholder="<?php echo $pl; ?>">
                         </div>
                     </div>
+
+                    <!--Apellido del segundo familiar-->
                     <div class="wpsp-col-lg-3 wpsp-col-md-4 wpsp-col-sm-4 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
                             <label class="wpsp-label" for="lastname"><?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Last Name","WPSchoolPress"));
                               $pl = "";
-                              if(isset($item['section']) && $item['section'] == "parent" && isset($item['p_lname'])){
-                                    echo $pl = esc_html($item['p_lname'],"WPSchoolPress");
+                              if(isset($item['section']) && $item['section'] == "parent" && isset($item['p2_lname'])){
+                                    echo $pl = esc_html($item['p2_lname'],"WPSchoolPress");
 
                               }else{
                                   echo $pl = esc_html("Last Name","WPSchoolPress");
@@ -913,201 +869,61 @@
                               ?>
                               <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
                             </label>
-                            <input type="text" class="wpsp-form-control" data-is_required="<?php echo $is_required; ?>" id="p_lastname" name="p_lname" placeholder="<?php echo $pl; ?>">
+                            <input type="text" class="wpsp-form-control" data-is_required="<?php echo $is_required; ?>" id="p_lastname" name="p2_lname" placeholder="<?php echo $pl; ?>">
                         </div>
                     </div>
                     <div class="clearfix"></div>
+
+
+
+                    <!--Email del segundo familiar-->
                     <div class="wpsp-col-md-3 wpsp-col-sm-4 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="Username"><?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Username","WPSchoolPress"));
-                              $pl = "";
-                              if(isset($item['section']) && $item['section'] == "parent" && isset($item['pUsername'])){
-                                    echo $pl = esc_html($item['pUsername'],"WPSchoolPress");
-
-                              }else{
-                                  echo $pl = esc_html("Username","WPSchoolPress");
-                              }
-                              /*Check Required Field*/
-                              if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['pUsername'])){
-                                  $is_required =  $is_required_parent['pUsername'];
-                              }else{
-                                  $is_required = false;
-                              }
-                              ?>
-                              <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
-                            </label>
-                            <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control chk-username" id="p_username" name="pUsername" placeholder="<?php echo $pl; ?>">
-                        </div>
-                    </div>
-                    <div class="wpsp-col-md-3 wpsp-col-sm-4 wpsp-col-xs-12">
-                        <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="Password">
-                              <?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Password","WPSchoolPress"));
-                                $pl = "";
-                                if(isset($item['section']) && $item['section'] == "parent" && isset($item['pPassword'])){
-                                      echo $pl = esc_html($item['pPassword'],"WPSchoolPress");
-
-                                }else{
-                                    echo $pl = esc_html("Password","WPSchoolPress");
-                                }
-                                /*Check Required Field*/
-                                if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['pPassword'])){
-                                    $is_required =  $is_required_parent['pPassword'];
-                                }else{
-                                    $is_required = false;
-                                }
-                                ?>
-                                <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
-                              </label>
-                            <input type="password" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="p_password" name="pPassword" placeholder="<?php echo $pl; ?>">
-                        </div>
-                    </div>
-                    <div class="wpsp-col-md-3 wpsp-col-sm-4 wpsp-col-xs-12">
-                        <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="ConfirmPassword">
-                              <?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Confirm Password","WPSchoolPress"));
-                                $pl = "";
-                                if(isset($item['section']) && $item['section'] == "parent" && isset($item['pConfirmPassword'])){
-                                      echo $pl = esc_html($item['pConfirmPassword'],"WPSchoolPress");
-
-                                }else{
-                                    echo $pl = esc_html("Confirm Password","WPSchoolPress");
-                                }
-                                /*Check Required Field*/
-                                if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['pConfirmPassword'])){
-                                    $is_required =  $is_required_parent['pConfirmPassword'];
-                                }else{
-                                    $is_required = false;
-                                }
-                                ?>
-                                <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
-                              </label>
-                            <input type="password" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="p_confirmpassword" name="pConfirmPassword"  placeholder="<?php echo $pl; ?>">
-                        </div>
-                    </div>
-                    <div class="wpsp-col-md-3 wpsp-col-sm-4 wpsp-col-xs-12">
-                            <div class="wpsp-form-group">
-                                <label class="wpsp-label" for="pbloodgroup"><?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Blood Group","WPSchoolPress"));
-                                    $pl = "";
-                                    if(isset($item['section']) && $item['section'] == "parent" && isset($item['p_bloodgroup'])){
-                                          echo $pl = esc_html($item['p_bloodgroup'],"WPSchoolPress");
-
-                                    }else{
-                                        echo $pl = esc_html("Blood Group","WPSchoolPress");
-                                    }
-                                    /*Check Required Field*/
-                                    if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p_bloodgroup'])){
-                                        $is_required =  $is_required_parent['p_bloodgroup'];
-                                    }else{
-                                        $is_required = false;
-                                    }
-                                    ?>
-                                    <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
-                                    </label>
-                                <select class="wpsp-form-control" data-is_required="<?php echo $is_required; ?>" id="p_bloodgroup" name="p_bloodgroup">
-                                    <option value="">Select Blood Group</option>
-                                    <option value="O+">O +</option>
-                                    <option value="O-">O -</option>
-                                    <option value="A+">A +</option>
-                                    <option value="A-">A -</option>
-                                    <option value="B+">B +</option>
-                                    <option value="B-">B -</option>
-                                    <option value="AB+">AB +</option>
-                                    <option value="AB-">AB -</option>
-                                </select>
-                            </div>
-                        </div>
-                    <div class="wpsp-col-md-3 wpsp-col-sm-4 wpsp-col-xs-12">
-                        <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="pEmail">
+                            <label class="wpsp-label" for="p2_email">
                               <?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Email Address","WPSchoolPress"));
                                 $pl = "";
-                                if(isset($item['section']) && $item['section'] == "parent" && isset($item['pEmail'])){
-                                      echo $pl = esc_html($item['pEmail'],"WPSchoolPress");
+                                if(isset($item['section']) && $item['section'] == "parent" && isset($item['p2_email'])){
+                                      echo $pl = esc_html($item['p2_email'],"WPSchoolPress");
 
                                 }else{
                                     echo $pl = esc_html("Email Address","WPSchoolPress");
                                 }
                                 /*Check Required Field*/
-                                if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['pEmail'])){
-                                    $is_required =  $is_required_parent['pEmail'];
+                                if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p_email'])){
+                                    $is_required =  $is_required_parent['p2_email'];
                                 }else{
                                     $is_required = false;
                                 }
                                 ?>
                                 <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
                               </label>
-                            <input  data-required="<?php echo $is_required; ?>" class="wpsp-form-control chk-email" id="pEmail" name="pEmail" placeholder="<?php echo $pl; ?>" type="email">
+                            <input  data-required="<?php echo $is_required; ?>" class="wpsp-form-control chk-email" id="p2_email" name="p2_email" placeholder="<?php echo $pl; ?>" type="email">
                         </div>
                     </div>
+
+                    <!--Teléfono del segundo familiar-->
                     <div class="wpsp-col-md-3 wpsp-col-sm-4 wpsp-col-xs-12">
                             <div class="wpsp-form-group">
                                 <label class="wpsp-label" for="phone">
                                   <?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Phone","WPSchoolPress"));
                                     $pl = "";
-                                    if(isset($item['section']) && $item['section'] == "parent" && isset($item['s_phone'])){
-                                          echo $pl = esc_html($item['s_phone'],"WPSchoolPress");
+                                    if(isset($item['section']) && $item['section'] == "parent" && isset($item['p2_phone'])){
+                                          echo $pl = esc_html($item['p2_phone'],"WPSchoolPress");
 
                                     }else{
                                         echo $pl = esc_html("Phone","WPSchoolPress");
                                     }
                                     /*Check Required Field*/
-                                    if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['s_phone'])){
-                                        $is_required =  $is_required_parent['s_phone'];
+                                    if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p2_phone'])){
+                                        $is_required =  $is_required_parent['p2_phone'];
                                     }else{
                                         $is_required = false;
                                     }
                                     ?>
                                     <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
                                   </label>
-                                <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="s_phone" name="s_phone" placeholder="<?php echo $pl; ?>">
+                                <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="p2_phone" name="p2_phone" placeholder="<?php echo $pl; ?>">
                             </div>
-                    </div>
-                    <div class="wpsp-col-md-3 wpsp-col-sm-6 wpsp-col-xs-12">
-                        <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="p_edu">
-                              <?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Education","WPSchoolPress"));
-                                $pl = "";
-                                if(isset($item['section']) && $item['section'] == "parent" && isset($item['p_edu'])){
-                                      echo $pl = esc_html($item['p_edu'],"WPSchoolPress");
-
-                                }else{
-                                    echo $pl = esc_html("Education","WPSchoolPress");
-                                }
-                                /*Check Required Field*/
-                                if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p_edu'])){
-                                    $is_required =  $is_required_parent['p_edu'];
-                                }else{
-                                    $is_required = false;
-                                }
-                                ?>
-                                <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
-                              </label>
-                            <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" name="p_edu"  placeholder="<?php echo $pl;?>" id="p_edu">
-                        </div>
-                    </div>
-                    <div class="wpsp-col-md-3 wpsp-col-sm-6 wpsp-col-xs-12">
-                        <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="p_profession">
-                              <?php $item =  apply_filters( 'wpsp_student_parent_title_item',esc_html("Profession","WPSchoolPress"));
-                                $pl = "";
-                                if(isset($item['section']) && $item['section'] == "parent" && isset($item['p_profession'])){
-                                      echo $pl = esc_html($item['p_profession'],"WPSchoolPress");
-
-                                }else{
-                                    echo $pl = esc_html("Profession","WPSchoolPress");
-                                }
-                                /*Check Required Field*/
-                                if(isset($is_required_parent['section']) && $is_required_parent['section'] == "parent" && isset($is_required_parent['p_profession'])){
-                                    $is_required =  $is_required_parent['p_profession'];
-                                }else{
-                                    $is_required = false;
-                                }
-                                ?>
-                                <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
-                              </label>
-                            <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" name="p_profession"  placeholder="<?php echo $pl; ?>" id="p_profession">
-                        </div>
                     </div>
 
                         <?php
@@ -1115,7 +931,7 @@
                         ?>
 
                     <div class="wpsp-col-xs-12 wpsp-hidden-xs">
-                        <button type="submit" class="wpsp-btn wpsp-btn-success" id="studentform2">Next</button>&nbsp;&nbsp;
+                        <button type="submit" class="wpsp-btn wpsp-btn-success" id="studentform3">Siguiente</button>&nbsp;&nbsp;
                         <!-- <a href="<?php echo wpsp_admin_url();?>sch-student" class="wpsp-btn wpsp-dark-btn">Back</a> -->
                     </div>
                 </div>
@@ -1123,6 +939,7 @@
         </div>
     </div>
     </div>
+
 <!----ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo---->    
 
 
@@ -1322,13 +1139,13 @@
                     <div class="wpsp-col-md-12 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
                             <label class="wpsp-label" for="dateofbirth">
-                              <?php $item =  apply_filters( 'wpsp_student_school_title_item',esc_html("Roll Number","WPSchoolPress"));
+                              <?php $item =  apply_filters( 'wpsp_student_school_title_item',esc_html("DNI","WPSchoolPress"));
                                   $pl = "";
                                   if(isset($item['section']) && $item['section'] == "school" && isset($item['s_rollno'])){
                                         echo $pl = esc_html($item['s_rollno'],"WPSchoolPress");
 
                                   }else{
-                                      echo $pl = esc_html("Roll Number","WPSchoolPress");
+                                      echo $pl = esc_html("DNI","WPSchoolPress");
                                   }
                                   /*Check Required Field*/
                                   if(isset($is_required_school['section']) && $is_required_school['section'] == "school" && isset($is_required_school['s_rollno'])){
@@ -1347,8 +1164,8 @@
                   do_action('wpsp_after_student_school_detail_fields');
                 ?>
                 <div class="wpsp-btnsubmit-section">
-                  <button type="submit" class="wpsp-btn wpsp-btn-success" id="studentform4">Submit</button>&nbsp;&nbsp;
-                  <a href="<?php echo wpsp_admin_url();?>sch-student" class="wpsp-btn wpsp-dark-btn">Back</a>
+                  <button type="submit" class="wpsp-btn wpsp-btn-success" id="studentform4">Enviar</button>&nbsp;&nbsp;
+                  <a href="<?php echo wpsp_admin_url();?>sch-student" class="wpsp-btn wpsp-dark-btn">Atras</a>
                 </div>
             </div>
         </div>

@@ -1247,7 +1247,7 @@ function wpsp_getStudentsList()
 									</tr>
                                     <tr>
 										<th>#</th>
-										<th>Roll No.</th>
+										<th>DNI</th>
 										<th>Name </th>
 										<th>Absent </th>
 										<th>Reason </th>
@@ -1531,7 +1531,7 @@ function wpsp_AttReport($st_id, $close = 1)
 								</tr>
 								<tr>
 									<td width='50%'><strong>Class: </strong>".implode(", ",$classname_array)."</td>
-									<td width='50%'><strong>Roll No. : </strong>$stinfo->s_rollno</td>
+									<td width='50%'><strong>DNI : </strong>$stinfo->s_rollno</td>
 								</tr>
 								<tr>
 									<td width='50%'><strong>Class Start: </strong> $stinfo->c_sdate </td>

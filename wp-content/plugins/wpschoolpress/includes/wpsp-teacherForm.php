@@ -18,11 +18,11 @@
                         <div class="wpsp-col-lg-3 wpsp-col-md-4 wpsp-col-sm-4 wpsp-col-xs-12">
                             <div class="wpsp-form-group">
                                 <label class="wpsp-label">
-                                  <?php $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Profile Image","WPSchoolPress"));
+                                  <?php $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Imagen de Perfil","WPSchoolPress"));
                                       if(isset($item['section']) && $item['section'] == "personal" && isset($item['displaypicture'])){
                                         echo esc_html($item['displaypicture'],"WPSchoolPress");
                                   }else{
-                                      echo esc_html("Profile Image","WPSchoolPress");
+                                      echo esc_html("Imagen de Perfil","WPSchoolPress");
                                   }
                                   ?>
                                 </label>
@@ -30,32 +30,32 @@
                                     <img class="wpsp-upAvatar" id="img_preview_teacher"  src="<?php echo WPSP_PLUGIN_URL . 'img/default_avtar.jpg'?>">
                                     <div class="wpsp-upload-button"><i class="fa fa-camera"></i><input name="displaypicture" class="wpsp-file-upload" id="displaypicture" type="file" accept="image/jpg, image/jpeg" /></div>
                                 </div>
-                                <p class="wpsp-form-notes">* Only JPEG and JPG supported, * Max 3 MB Upload </p>
+                                <p class="wpsp-form-notes">* Soporta solo JPEG y JPG, * Max 3 MB </p>
                                 <label id="displaypicture-error" class="error" for="displaypicture" style="display: none;">Please Upload Profile Image</label>
                                 <p id="test" style="color:red"></p></div>
                         </div>
                         <div class="wpsp-col-lg-9 wpsp-col-md-8 wpsp-col-sm-12 wpsp-col-xs-12">
                             <div class="wpsp-form-group">
                                 <label class="wpsp-label" for="gender">
-                                  <?php $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Gender","WPSchoolPress"));
+                                  <?php $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Sexo","WPSchoolPress"));
                                       if(isset($item['section']) && $item['section'] == "personal" && isset($item['s_gender'])){
                                         echo esc_html($item['s_gender'],"WPSchoolPress");
                                       }else{
-                                        echo esc_html("Gender","WPSchoolPress");
+                                        echo esc_html("Sexo","WPSchoolPress");
                                       }
                                   ?></label>
                                 <div class="wpsp-radio-inline">
                                     <div class="wpsp-radio">
                                         <input type="radio" name="Gender" value="Male" checked="checked" id="Male">
-                                        <label for="Male">Male</label>
+                                        <label for="Male">Masculino</label>
                                     </div>
                                     <div class="wpsp-radio">
                                         <input type="radio" name="Gender" value="Female" id="Female">
-                                        <label for="Female">Female</label>
+                                        <label for="Female">Femenino</label>
                                     </div>
                                     <div class="wpsp-radio">
                                         <input type="radio" name="Gender" value="other" id="other">
-                                        <label for="other">Other</label>
+                                        <label for="other">Otro</label>
                                     </div>
                                 </div>
                             </div>
@@ -66,11 +66,11 @@
                                 <label class="wpsp-label" for="firstname">
                                   <?php
                                   $pl = "";
-                                  $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("First Name","WPSchoolPress"));
+                                  $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Primer Nombre","WPSchoolPress"));
                                       if(isset($item['section']) && $item['section'] == "personal" && isset($item['firstname'])){
                                         echo $pl = esc_html($item['firstname'],"WPSchoolPress");
                                   }else{
-                                      echo $pl = esc_html("First Name","WPSchoolPress");
+                                      echo $pl = esc_html("Primer Nombre","WPSchoolPress");
 
                                   }
 
@@ -92,11 +92,11 @@
                                 <label class="wpsp-label" for="middlename">
                                   <?php
                                   $pl = "";
-                                  $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Middle Name","WPSchoolPress"));
+                                  $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Segundo Nombre","WPSchoolPress"));
                                       if(isset($item['section']) && $item['section'] == "personal" && isset($item['middlename'])){
                                         echo $pl = esc_html($item['middlename'],"WPSchoolPress");
                                   }else{
-                                      echo $pl = esc_html("Middle Name","WPSchoolPress");
+                                      echo $pl = esc_html("Segundo Nombre","WPSchoolPress");
 
                                   }
 
@@ -117,11 +117,11 @@
                                 <label class="wpsp-label" for="lastname">
                                   <?php
                                   $pl = "";
-                                  $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Last Name","WPSchoolPress"));
+                                  $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Apellido","WPSchoolPress"));
                                       if(isset($item['section']) && $item['section'] == "personal" && isset($item['lastname'])){
                                         echo $pl = esc_html($item['lastname'],"WPSchoolPress");
                                   }else{
-                                      echo $pl = esc_html("Last Name","WPSchoolPress");
+                                      echo $pl = esc_html("Apellido","WPSchoolPress");
 
                                   }
 
@@ -142,11 +142,11 @@
                             <div class="wpsp-form-group">
                                 <label class="wpsp-label" for="dateofbirth"><?php
                                   $pl = "";
-                                  $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Date of Birth","WPSchoolPress"));
+                                  $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Fecha de Nacimiento","WPSchoolPress"));
                                       if(isset($item['section']) && $item['section'] == "personal" && isset($item['Dob'])){
                                         echo $pl = esc_html($item['Dob'],"WPSchoolPress");
                                   }else{
-                                      echo $pl = esc_html("Date of Birth","WPSchoolPress");
+                                      echo $pl = esc_html("Fecha de Nacimiento","WPSchoolPress");
 
                                   }
 
@@ -158,7 +158,7 @@
                                   }
                                   ?>
                                   <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
-                                <input type="text" class="wpsp-form-control select_date" data-is_required="<?php echo $is_required; ?>" id="Dob" name="Dob" placeholder="mm/dd/yyyy" readonly>
+                                <input type="text" class="wpsp-form-control select_date" data-is_required="<?php echo $is_required; ?>" id="Dob" name="Dob" placeholder="mm/dd/aaaa" readonly>
                             </div>
                         </div>
                         <div class="wpsp-col-lg-3 wpsp-col-md-4 wpsp-col-sm-4 wpsp-col-xs-12">
@@ -166,11 +166,11 @@
                                 <label class="wpsp-label" for="bloodgroup">
                                   <?php
                                     $pl = "";
-                                    $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Blood Group","WPSchoolPress"));
+                                    $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Grupo Sanguineo","WPSchoolPress"));
                                         if(isset($item['section']) && $item['section'] == "personal" && isset($item['Bloodgroup'])){
                                           echo $pl = esc_html($item['Bloodgroup'],"WPSchoolPress");
                                     }else{
-                                        echo $pl = esc_html("Blood Group","WPSchoolPress");
+                                        echo $pl = esc_html("Grupo Sanguineo","WPSchoolPress");
 
                                     }
 
@@ -183,7 +183,7 @@
                                     ?>
                                     <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
                                 <select data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="Bloodgroup" name="Bloodgroup">
-                                    <option value="">Select Blood Group</option>
+                                    <option value="">Seleccione Grupo Sanguineo</option>
                                     <option value="O+">O +</option>
                                     <option value="O-">O -</option>
                                     <option value="A+">A +</option>
@@ -199,11 +199,11 @@
                             <div class="wpsp-form-group">
                                 <label class="wpsp-label" for="phone"><?php
                                     $pl = "";
-                                    $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Phone","WPSchoolPress"));
+                                    $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Teléfono","WPSchoolPress"));
                                         if(isset($item['section']) && $item['section'] == "personal" && isset($item['Phone'])){
                                           echo $pl = esc_html($item['Phone'],"WPSchoolPress");
                                     }else{
-                                        echo $pl = esc_html("Phone","WPSchoolPress");
+                                        echo $pl = esc_html("Teléfono","WPSchoolPress");
 
                                     }
 
@@ -245,18 +245,18 @@
                         </div>
                         <div class="wpsp-col-xs-12">
                             <hr />
-                            <h4 class="card-title mt-5">Address</h4>
+                            <h4 class="card-title mt-5">Dirección</h4>
                         </div>
                         <div class="wpsp-col-xs-12">
                             <div class="wpsp-form-group">
                                 <label class="wpsp-label" for="Address">
                                   <?php
                                       $pl = "";
-                                      $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Street Address","WPSchoolPress"));
+                                      $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Dirección Actual","WPSchoolPress"));
                                           if(isset($item['section']) && $item['section'] == "personal" && isset($item['Address'])){
                                             echo $pl = esc_html($item['Address'],"WPSchoolPress");
                                       }else{
-                                          echo $pl = esc_html("Street Address ","WPSchoolPress");
+                                          echo $pl = esc_html("Dirección Actual ","WPSchoolPress");
 
                                       }
 
@@ -277,11 +277,11 @@
                                 <label class="wpsp-label" for="CityName">
                                   <?php
                                       $pl = "";
-                                      $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("City Name","WPSchoolPress"));
+                                      $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Ciudad","WPSchoolPress"));
                                           if(isset($item['section']) && $item['section'] == "personal" && isset($item['city'])){
                                             echo $pl = esc_html($item['city'],"WPSchoolPress");
                                       }else{
-                                          echo $pl = esc_html("City Name","WPSchoolPress");
+                                          echo $pl = esc_html("Ciudad","WPSchoolPress");
 
                                       }
 
@@ -301,11 +301,11 @@
                             <div class="wpsp-form-group">
                                 <label class="wpsp-label" for="Country"><?php
                                       $pl = "";
-                                      $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Country","WPSchoolPress"));
+                                      $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("País","WPSchoolPress"));
                                           if(isset($item['section']) && $item['section'] == "personal" && isset($item['country'])){
                                             echo $pl = esc_html($item['country'],"WPSchoolPress");
                                       }else{
-                                          echo $pl = esc_html("Country","WPSchoolPress");
+                                          echo $pl = esc_html("País","WPSchoolPress");
 
                                       }
 
@@ -320,7 +320,7 @@
                                   </label>
                                     <?php $countrylist = wpsp_county_list();?>
                                 <select data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="Country" name="country">
-                                    <option value="">Select Country</option>
+                                    <option value="">Seleccione un País</option>
                                     <?php
                                         foreach( $countrylist as $key=>$value ) { ?>
                                     <option value="<?php echo $value;?>"><?php echo $value;?></option>
@@ -335,11 +335,11 @@
                                 <label class="wpsp-label" for="Zipcode">
                                     <?php
                                         $pl = "";
-                                        $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Pin Code","WPSchoolPress"));
+                                        $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Código Postal","WPSchoolPress"));
                                             if(isset($item['section']) && $item['section'] == "personal" && isset($item['zipcode'])){
                                               echo $pl = esc_html($item['zipcode'],"WPSchoolPress");
                                         }else{
-                                            echo $pl = esc_html("Pin Code","WPSchoolPress");
+                                            echo $pl = esc_html("Código Postal","WPSchoolPress");
 
                                         }
 
@@ -357,7 +357,7 @@
                         </div>
                         <?php  do_action('wpsp_after_teacher_personal_detail_fields'); ?>
                         <div class="wpsp-col-xs-12 wpsp-hidden-xs">
-                            <button type="submit" class="wpsp-btn wpsp-btn-success" id="teacherform">Next</button>&nbsp;&nbsp;
+                            <button type="submit" class="wpsp-btn wpsp-btn-success" id="teacherform">Siguiente</button>&nbsp;&nbsp;
                         </div>
                     </div>
                 </div>
@@ -375,12 +375,12 @@
               ?>
                <div class="wpsp-form-group">
                     <label class="wpsp-label" for="Email"><?php $pl = "";
-                         $item =  apply_filters( 'wpsp_teacher_account_title_item',esc_html("Email Address","WPSchoolPress"));
+                         $item =  apply_filters( 'wpsp_teacher_account_title_item',esc_html("Correo Electrónico","WPSchoolPress"));
                         if(isset($item['section']) && $item['section'] == "account" && isset($item['Email'])){
                               echo $pl = esc_html($item['Email'],"WPSchoolPress");
 
                         }else{
-                            echo $pl = esc_html("Email Address","WPSchoolPress");
+                            echo $pl = esc_html("Correo Electrónico","WPSchoolPress");
                         }
                         /*Check Required Field*/
                         if(isset($is_required_parent['section']) && $is_required_parent['section'] == "account" && isset($is_required_parent['Email'])){
@@ -394,12 +394,12 @@
                 </div>
                 <div class="wpsp-form-group">
                     <label class="wpsp-label" for="Username"><?php $pl = "";
-                         $item =  apply_filters( 'wpsp_teacher_account_title_item',esc_html("Username","WPSchoolPress"));
+                         $item =  apply_filters( 'wpsp_teacher_account_title_item',esc_html("Nombre de Usuario","WPSchoolPress"));
                         if(isset($item['section']) && $item['section'] == "account" && isset($item['Username'])){
                               echo $pl = esc_html($item['Username'],"WPSchoolPress");
 
                         }else{
-                            echo $pl = esc_html("Username","WPSchoolPress");
+                            echo $pl = esc_html("Nombre de Usuario","WPSchoolPress");
                         }
                         /*Check Required Field*/
                         if(isset($is_required_parent['section']) && $is_required_parent['section'] == "account" && isset($is_required_parent['Username'])){
@@ -413,12 +413,12 @@
                 </div>
                 <div class="wpsp-form-group">
                     <label class="wpsp-label" for="Password"><?php $pl = "";
-                         $item =  apply_filters( 'wpsp_teacher_account_title_item',esc_html("Password","WPSchoolPress"));
+                         $item =  apply_filters( 'wpsp_teacher_account_title_item',esc_html("Contraseña","WPSchoolPress"));
                         if(isset($item['section']) && $item['section'] == "account" && isset($item['Password'])){
                               echo $pl = esc_html($item['Password'],"WPSchoolPress");
 
                         }else{
-                            echo $pl = esc_html("Password","WPSchoolPress");
+                            echo $pl = esc_html("Contraseña","WPSchoolPress");
                         }
                         /*Check Required Field*/
                         if(isset($is_required_parent['section']) && $is_required_parent['section'] == "account" && isset($is_required_parent['Password'])){
@@ -433,12 +433,12 @@
                 <div class="wpsp-form-group">
                     <label class="wpsp-label" for="ConfirmPassword">
                       <?php $pl = "";
-                           $item =  apply_filters( 'wpsp_teacher_account_title_item',esc_html("Confirm Password","WPSchoolPress"));
+                           $item =  apply_filters( 'wpsp_teacher_account_title_item',esc_html("Confirmar Contraseña","WPSchoolPress"));
                           if(isset($item['section']) && $item['section'] == "account" && isset($item['ConfirmPassword'])){
                                 echo $pl = esc_html($item['ConfirmPassword'],"WPSchoolPress");
 
                           }else{
-                              echo $pl = esc_html("Confirm Password","WPSchoolPress");
+                              echo $pl = esc_html("Confirmar Contraseña","WPSchoolPress");
                           }
                           /*Check Required Field*/
                           if(isset($is_required_parent['section']) && $is_required_parent['section'] == "account" && isset($is_required_parent['ConfirmPassword'])){
@@ -448,11 +448,11 @@
                           }
                           ?>
                       <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
-                    <input type="password" class="wpsp-form-control" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirm Password">
+                    <input type="password" class="wpsp-form-control" id="ConfirmPassword" name="ConfirmPassword" placeholder="Confirmar Contraseña">
                 </div>
                    <?php  do_action('wpsp_after_teacher_account_detail_fields'); ?>
                 <div class="wpsp-hidden-xs">
-                    <button type="submit" class="wpsp-btn wpsp-btn-success" id="teacherform">Next</button>&nbsp;&nbsp;
+                    <button type="submit" class="wpsp-btn wpsp-btn-success" id="teacherform">Siguiente</button>&nbsp;&nbsp;
                 </div>
             </div>
         </div>
@@ -468,13 +468,13 @@
                    $is_required_school = apply_filters('wpsp_teacher_school_is_required',array());
                    ?>
                 <div class="wpsp-form-group">
-                    <label class="wpsp-label" for="Doj"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Joining Date","WPSchoolPress"));
+                    <label class="wpsp-label" for="Doj"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Fecha de Incorporación","WPSchoolPress"));
                         $pl = "";
                         if(isset($item['section']) && $item['section'] == "school" && isset($item['Doj'])){
                               echo $pl = esc_html($item['Doj'],"WPSchoolPress");
 
                         }else{
-                            echo $pl = esc_html("Joining Date","WPSchoolPress");
+                            echo $pl = esc_html("Fecha de Incorporación","WPSchoolPress");
                         }
                         /*Check Required Field*/
                         if(isset($is_required_school['section']) && $is_required_school['section'] == "school" && isset($is_required_school['Doj'])){
@@ -484,16 +484,16 @@
                         }
                         ?>
                         <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
-                    <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control select_date Doj" id="Doj" name="Doj" value="" placeholder="mm/dd/yyyy" readonly>
+                    <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control select_date Doj" id="Doj" name="Doj" value="" placeholder="mm/dd/aaaa" readonly>
                 </div>
                 <div class="wpsp-form-group">
-                    <label class="wpsp-label" for="Dol"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Leaving Date","WPSchoolPress"));
+                    <label class="wpsp-label" for="Dol"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Fecha de Salida","WPSchoolPress"));
                         $pl = "";
                         if(isset($item['section']) && $item['section'] == "school" && isset($item['dol'])){
                               echo $pl = esc_html($item['dol'],"WPSchoolPress");
 
                         }else{
-                            echo $pl = esc_html("Leaving Date","WPSchoolPress");
+                            echo $pl = esc_html("Fecha de Salida","WPSchoolPress");
                         }
                         /*Check Required Field*/
                         if(isset($is_required_school['section']) && $is_required_school['section'] == "school" && isset($is_required_school['dol'])){
@@ -503,16 +503,16 @@
                         }
                         ?>
                         <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span></label>
-                    <input type="text" class="wpsp-form-control select_date Dol" id="Dol" name="dol" value="" placeholder="mm/dd/yyyy" readonly>
+                    <input type="text" class="wpsp-form-control select_date Dol" id="Dol" name="dol" value="" placeholder="mm/dd/aaaa" readonly>
                 </div>
                 <div class="wpsp-form-group">
-                    <label class="wpsp-label" for="position"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Current Position","WPSchoolPress"));
+                    <label class="wpsp-label" for="position"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Posición Actual","WPSchoolPress"));
                         $pl = "";
                         if(isset($item['section']) && $item['section'] == "school" && isset($item['Position'])){
                               echo $pl = esc_html($item['Position'],"WPSchoolPress");
 
                         }else{
-                            echo $pl = esc_html("Current Position","WPSchoolPress");
+                            echo $pl = esc_html("Posición Actual","WPSchoolPress");
                         }
                         /*Check Required Field*/
                         if(isset($is_required_school['section']) && $is_required_school['section'] == "school" && isset($is_required_school['Position'])){
@@ -528,13 +528,13 @@
                 <div class="wpsp-row">
                     <div class="wpsp-col-md-6 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="empcode"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Employee Code","WPSchoolPress"));
+                            <label class="wpsp-label" for="empcode"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Código de Profesor","WPSchoolPress"));
                                 $pl = "";
                                 if(isset($item['section']) && $item['section'] == "school" && isset($item['EmpCode'])){
                                       echo $pl = esc_html($item['EmpCode'],"WPSchoolPress");
 
                                 }else{
-                                    echo $pl = esc_html("Employee Code","WPSchoolPress");
+                                    echo $pl = esc_html("Código de Profesor","WPSchoolPress");
                                 }
                                 /*Check Required Field*/
                                 if(isset($is_required_school['section']) && $is_required_school['section'] == "school" && isset($is_required_school['EmpCode'])){
@@ -551,13 +551,13 @@
 
                     <div class="wpsp-col-md-6 wpsp-col-xs-12">
                         <div class="wpsp-form-group">
-                            <label class="wpsp-label" for="whours"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Working Hours","WPSchoolPress"));
+                            <label class="wpsp-label" for="whours"><?php $item =  apply_filters( 'wpsp_teacher_school_title_item',esc_html("Horas de Trabajo","WPSchoolPress"));
                                 $pl = "";
                                 if(isset($item['section']) && $item['section'] == "school" && isset($item['whours'])){
                                       echo $pl = esc_html($item['whours'],"WPSchoolPress");
 
                                 }else{
-                                    echo $pl = esc_html("Working Hours","WPSchoolPress");
+                                    echo $pl = esc_html("Horas de Trabajo","WPSchoolPress");
                                 }
                                 /*Check Required Field*/
                                 if(isset($is_required_school['section']) && $is_required_school['section'] == "school" && isset($is_required_school['whours'])){
@@ -574,8 +574,8 @@
                 </div>
                    <?php  do_action('wpsp_after_teacher_school_detail_fields'); ?>
                 <div class="wpsp-btnsubmit-section">
-                    <button type="submit" class="wpsp-btn wpsp-btn-success" id="teacherform">Submit</button>&nbsp;&nbsp;
-                    <a href="<?php echo wpsp_admin_url();?>sch-teacher" class="wpsp-btn wpsp-dark-btn">Back</a>
+                    <button type="submit" class="wpsp-btn wpsp-btn-success" id="teacherform">Enviar</button>&nbsp;&nbsp;
+                    <a href="<?php echo wpsp_admin_url();?>sch-teacher" class="wpsp-btn wpsp-dark-btn">Atras</a>
                 </div>
             </div>
         </div>

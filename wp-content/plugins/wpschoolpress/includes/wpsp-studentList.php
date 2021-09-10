@@ -4,7 +4,7 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 	  $proclass		=	!$proversion['status'] && isset( $proversion['class'] )? $proversion['class'] : '';
 	  $protitle		=	!$proversion['status'] && isset( $proversion['message'] )? $proversion['message']	: '';
 	  $prodisable	=	!$proversion['status'] ? 'disabled="disabled"'	: '';
-	  $studentFieldList =  array(	's_rollno'			=>	__('Roll Number', 'WPSchoolPress'),
+	  $studentFieldList =  array(	's_rollno'			=>	__('DNI', 'WPSchoolPress'),
 									's_fname'			=>	__('Student First Name', 'WPSchoolPress'),
 									's_mname'			=>	__('Student Middle Name', 'WPSchoolPress'),
 									's_lname'			=>	__('Student Last Name', 'WPSchoolPress'),
@@ -127,7 +127,7 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 					<?php if ( in_array( 'administrator', $role ) ) { ?>
 							<div class="wpsp-bulkaction">
 								<select name="bulkaction" class="wpsp-form-control" id="bulkaction">
-									<option value="">Seleccionar Acción</option>
+									<option value="">Seleccione</option>
 									<option value="bulkUsersDelete">Eliminar</option>
 								</select>
 							</div>
@@ -148,8 +148,8 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 								<?php  if($proversion1['status']){?>
 										 <th><?php echo apply_filters( 'wpsp_student_table_class_status_heading',esc_html__('Class Status','WPSchoolPress'));?></th>
 									<?php } ?>
-								<th><?php echo apply_filters( 'wpsp_student_table_phone_heading',esc_html__('Phone','WPSchoolPress'));?></th>
-								<th align="center" class="nosort"><?php echo apply_filters( 'wpsp_student_table_action_heading',esc_html__('Action','WPSchoolPress'));?></th>
+								<th><?php echo apply_filters( 'wpsp_student_table_phone_heading',esc_html__('Teléfono','WPSchoolPress'));?></th>
+								<th align="center" class="nosort"><?php echo apply_filters( 'wpsp_student_table_action_heading',esc_html__('Acción','WPSchoolPress'));?></th>
 							</tr>
 						</thead>
 						<tbody>
@@ -316,18 +316,18 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 						  <tr>
 							<th><?php if ( in_array( 'administrator', $role ) ) { }
 								else echo 'Sr. No'; ?></th>
-							<th>Roll No.</th>
-							<th>Full Name</th>
-							<th>Parent</th>
-							<th>Street Address</th>
+							<th>DNI</th>
+							<th>Nombre Completo</th>
+							<th>Familiar</th>
+							<th>Dirección Postal</th>
 							<?php  if($propayment =='installed'){?>
 								<th>Payment Status</th>
 							<?php } ?>
 							<?php  if($proversion1['status']){?>
 								 <th>Class Status</th>
 							<?php } ?>
-							<th>Phone</th>
-							<th  align="center">Action</th>
+							<th>Teléfono</th>
+							<th  align="center">Acción</th>
 						  </tr>
 						</tfoot>
 					  </table>

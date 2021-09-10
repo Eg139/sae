@@ -100,11 +100,12 @@ function wpsp_topbar(){
           </div>
           <div class="wpsp-dropdown">
             <ul>
-              <?php if($roles[0]=='administrator') {?> <li class='wpsp-back-wp'><a href='<?php echo admin_url(); ?>'>Back to wp-admin</a></li><?php }?>
+<!--SE COMENTA LA SIGUIENTE LINEA PARA OCULTAR “Back to wp-admin” EN EL PERFIL DE “Administrador”-->
+              <!--<?php //if($roles[0]=='administrator') {?> <li class='wpsp-back-wp'><a href='<?php //echo admin_url(); ?>'>Back to wp-admin</a></li><?php //}?>-->
               <?php if($roles[0]!='administrator') {?><?php echo "<li class='wpsp-back-wp-editprofile'><a href='".site_url('wp-admin/admin.php?page=sch-editprofile')."'>".__('Edit Profile','WPSchoolPress')."</a></li>"; }
 
               echo "<li class='wpsp-back-wp-changepassword'><a href='".site_url('wp-admin/admin.php?page=sch-changepassword')."'>".__('Change Password','WPSchoolPress')."</a></li>"; ?>
-              <li><a href='<?php echo wp_logout_url();?>'>Sign out</a></li>
+              <li><a href='<?php echo wp_logout_url();?>'>Cerrar Sesión</a></li>
               <?php if ( !empty($schoolyear ) ) { ?>
                 <button class="btn">Academic year <span class="badge"> <?php echo $schoolyear; ?></span></button>
               <?php } ?>
@@ -1136,22 +1137,22 @@ if(isset($_GET['cid'])){
 
               if(($current_user_role == 'teacher')):
                 if($result == 'notify' || $result == 'settings' ){
-                  echo "<a class=' wpsp-btn wpsp-popclick' href='$addurl'><i class='fa fa-plus-circle'></i> Create New</a>";
+                  echo "<a class=' wpsp-btn wpsp-popclick' href='$addurl'><i class='fa fa-plus-circle'></i> Crear Nuevo</a>";
                 }
               endif;
               if(($current_user_role=='administrator')):
                 if($result == 'teacherattendance' || $result == 'attendance' || $result == 'marks' || $_GET['tab'] == 'addteacher' || $_GET['tab'] == 'addstudent'  || $_GET['tab'] == 'addclass' || $_GET['tab'] == 'addsubject' || $result == 'leavecalendar' || $_GET['tab'] == 'addexam' || $_GET['ac'] == 'add' ||  $result == 'settings' || $result == 'messages'){} else{
-                    echo "<a class='wpsp-btn $current_user_role' href='$addurl'><i class='fa fa-plus-circle'></i> Create New</a>";
+                    echo "<a class='wpsp-btn $current_user_role' href='$addurl'><i class='fa fa-plus-circle'></i> Crear Nuevo</a>";
                 }
               endif;
             endif;
             if(empty($addurl) && ($current_user_role == 'administrator') && ($result == 'notify' ||  $result == 'settings' || $result =='transport' )):
               if($result == 'settings'){
                 if((isset($_GET['sc'])) && ($_GET['sc'] == 'WrkHours')){} elseif((isset($_GET['sc'])) && ($_GET['sc'] == 'subField')) {
-                echo "<a class='wpsp-popclick wpsp-btn' data-pop='addFieldModal' id='AddFieldsButton'><i class='fa fa-plus-circle'></i> Create New</a>";
+                echo "<a class='wpsp-popclick wpsp-btn' data-pop='addFieldModal' id='AddFieldsButton'><i class='fa fa-plus-circle'></i> Crear Nuevo</a>";
                 }
               } else{
-                echo "<a class='wpsp-btn wpsp-popclick' data-pop='ViewModal' id='AddNew'><i class='fa fa-plus-circle'></i> Create New</a>";
+                echo "<a class='wpsp-btn wpsp-popclick' data-pop='ViewModal' id='AddNew'><i class='fa fa-plus-circle'></i> Crear Nuevo</a>";
               }
             endif;
         echo "</div>
