@@ -601,7 +601,7 @@ if( $current_user_role=='administrator' || $current_user_role == 'parent'){?> <d
 			<div class="wpsp-card">
 				<div class="wpsp-card-head">
 					<div class="wpsp-left">
-						<h3 class="wpsp-card-title">Activities Calender</h3>
+						<h3 class="wpsp-card-title">Calendario de Actividades</h3>
 					</div>
 					<ul class="wpsp-cards-indicators wpsp-right">
 						<li><span class="wpsp-indic wpsp-blue-indic"></span> Events</li>
