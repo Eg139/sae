@@ -31,7 +31,7 @@ $(document).ready(function() {
         previous: '<i class="fa fa-angle-double-left" aria-hidden="true"></i>'
       },
       search: "",
-      searchPlaceholder: "Search..."
+      searchPlaceholder: "Buscar..."
     },
     dom: '<"wpsp-dataTable-top"f>rt<"wpsp-dataTable-bottom"<"wpsp-length-info"li>p<"clear">>',
     order: [],
@@ -59,7 +59,7 @@ $(document).ready(function() {
     if (null != t.target.files) {
       var n = new FileReader;
       n.onload = function(t) {
-        for (var a = t.target.result.split("\n"), n = a[0].split(","), o = 1; o < a.length; o++) {
+        for (var a = t.target.result.split("n"), n = a[0].split(","), o = 1; o < a.length; o++) {
           var l = a[o].split(",");
           if (l.length == n.length) {
             for (var i = {}, r = 0; r < n.length; r++) i[n[r]] = l[r];

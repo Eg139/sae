@@ -179,7 +179,7 @@ $(document).ready(function() {
         previous: '<i class="fa fa-angle-double-left" aria-hidden="true"></i>'
       },
       search: "",
-      searchPlaceholder: "Search..."
+      searchPlaceholder: "Buscar..."
     },
     dom: '<"wpsp-dataTable-top"f>rt<"wpsp-dataTable-bottom"<"wpsp-length-info"li>p<"clear">>',
     order: [],
