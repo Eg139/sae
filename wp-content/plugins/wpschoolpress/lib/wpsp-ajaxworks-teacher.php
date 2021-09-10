@@ -442,6 +442,8 @@ function wpsp_UpdateTeacher()
 
 		sanitize_text_field($_POST['lastname']) => 'required',
 
+		sanitize_text_field($_POST['Qual']) => 'required',
+
 		sanitize_email($_POST['Email']) => 'required|email'
 
 	));
