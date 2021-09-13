@@ -74,7 +74,7 @@ if (!defined( 'ABSPATH' ) )exit('No Such File');
 
 
 
-									'qualification'	    =>	__('Qualification', 'WPSchoolPress'),
+									'dni'	    =>	__('Dni', 'WPSchoolPress'),
 
 
 

@@ -58,7 +58,7 @@ function wpsp_AddTeacher()
 
 	$phone = sanitize_text_field($_POST['Phone']);
 
-	$qual = sanitize_text_field($_POST['Qual']);
+	$dni = sanitize_text_field($_POST['dni']);
 
 	$position = sanitize_text_field($_POST['Position']);
 
@@ -160,7 +160,7 @@ function wpsp_AddTeacher()
 
 			'phone' => $phone,
 
-			'qualification' => $qual,
+			'dni' => $dni,
 
 			'gender' => $gender,
 
@@ -362,7 +362,7 @@ function wpsp_TeacherPublicProfile()
 
 								<td><strong>Position: </strong> $tinfo->position</td>
 
-								<td><strong>DNI: </strong> $tinfo->qualification</td>
+								<td><strong>DNI: </strong> $tinfo->dni</td>
 
 							</tr>
 
@@ -442,7 +442,7 @@ function wpsp_UpdateTeacher()
 
 		sanitize_text_field($_POST['lastname']) => 'required',
 
-		sanitize_text_field($_POST['Qual']) => 'required',
+		sanitize_text_field($_POST['dni']) => 'required',
 
 		sanitize_email($_POST['Email']) => 'required|email'
 
@@ -482,7 +482,7 @@ function wpsp_UpdateTeacher()
 
 	$phone = sanitize_text_field($_POST['Phone']);
 
-	$qual = sanitize_text_field($_POST['Qual']);
+	$dni = sanitize_text_field($_POST['dni']);
 
 	$bloodgroup = sanitize_text_field($_POST['Bloodgroup']);
 
@@ -534,7 +534,7 @@ if ($teachereditprofile == 'teachereditprofile')
 
 			'phone' => $phone,
 
-			'qualification' => $qual,
+			'dni' => $dni,
 
 			'gender' => $gender,
 
@@ -582,7 +582,7 @@ if ($teachereditprofile == 'teachereditprofile')
 
 			'phone' => $phone,
 
-			'qualification' => $qual,
+			'dni' => $dni,
 
 			'gender' => $gender,
 

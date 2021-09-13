@@ -220,27 +220,27 @@
                             </div>
                         </div>
                         <div class="wpsp-col-lg-3 wpsp-col-md-8 wpsp-col-sm-8 wpsp-col-xs-12">
-                            <div class="wpsp-form-group">
+                        <div class="wpsp-form-group">
                                 <label class="wpsp-label" for="educ"><?php
                                     $pl = "";
-                                    $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("DNI","WPSchoolPress"));
-                                        if(isset($item['section']) && $item['section'] == "personal" && isset($item['Qual'])){
-                                          echo $pl = esc_html($item['Qual'],"WPSchoolPress");
+                                    $item =  apply_filters( 'wpsp_teacher_personal_title_item',esc_html("Dni","WPSchoolPress"));
+                                        if(isset($item['section']) && $item['section'] == "personal" && isset($item['Dni'])){
+                                          echo $pl = esc_html($item['Dni'],"WPSchoolPress");
                                     }else{
-                                        echo $pl = esc_html("DNI","WPSchoolPress");
+                                        echo $pl = esc_html("Dni","WPSchoolPress");
 
                                     }
 
                                     /*Check Required Field*/
-                                    if(isset($is_required_item['section']) && $is_required_item['section'] == "personal" && isset($is_required_item['Qual'])){
-                                        $is_required =  $is_required_item['Qual'];
+                                    if(isset($is_required_item['section']) && $is_required_item['section'] == "personal" && isset($is_required_item['Dni'])){
+                                        $is_required =  $is_required_item['Dni'];
                                     }else{
                                         $is_required = true;
                                     }
                                     ?>
                                   <span class="wpsp-required"><?php echo ($is_required)?"*":""; ?></span>
                                 </label>
-                                <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="Qual" name="Qual" placeholder="<?php echo $pl; ?>">
+                                <input type="text" data-is_required="<?php echo $is_required; ?>" class="wpsp-form-control" id="Dni" name="dni" placeholder="<?php echo $pl; ?>">
                             </div>
                         </div>
                         <div class="wpsp-col-xs-12">
